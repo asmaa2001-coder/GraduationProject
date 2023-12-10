@@ -1,0 +1,794 @@
+<html xmlns:o="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8' >
+
+    <style>
+@font-face{
+font-family:"Times New Roman";
+}
+
+@font-face{
+font-family:"宋体";
+}
+
+@font-face{
+font-family:"SimSun";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@list l0:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"●";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"■";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"●";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"■";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"●";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+@list l0:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"■";
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
+
+p.MsoNormal{
+mso-style-name:Normal;
+mso-style-parent:"";
+margin:0pt;
+margin-bottom:.0001pt;
+line-height:114%;
+font-family:Arial;
+font-size:11.0000pt;
+}
+
+h1{
+mso-style-name:"Heading 1";
+mso-style-next:Normal;
+margin-top:20.0000pt;
+margin-bottom:6.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+font-size:20.0000pt;
+}
+
+h2{
+mso-style-name:"Heading 2";
+mso-style-next:Normal;
+margin-top:18.0000pt;
+margin-bottom:6.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+mso-ansi-font-weight:normal;
+font-size:16.0000pt;
+}
+
+h3{
+mso-style-name:"Heading 3";
+mso-style-next:Normal;
+margin-top:16.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(67,67,67);
+mso-ansi-font-weight:normal;
+font-size:14.0000pt;
+}
+
+h4{
+mso-style-name:"Heading 4";
+mso-style-next:Normal;
+margin-top:14.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+font-size:12.0000pt;
+}
+
+h5{
+mso-style-name:"Heading 5";
+mso-style-next:Normal;
+margin-top:12.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+font-size:11.0000pt;
+}
+
+h6{
+mso-style-name:"Heading 6";
+mso-style-next:Normal;
+margin-top:12.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+mso-ansi-font-style:italic;
+font-size:11.0000pt;
+}
+
+span.10{
+font-family:SimSun;
+}
+
+p.p{
+mso-style-name:"Normal \(Web\)";
+margin-top:5.0000pt;
+margin-right:0.0000pt;
+margin-bottom:5.0000pt;
+margin-left:0.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:SimSun;
+font-size:12.0000pt;
+}
+
+p.MsoSubtitle{
+mso-style-name:Subtitle;
+mso-style-next:Normal;
+margin-top:0.0000pt;
+margin-bottom:16.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+mso-ansi-font-style:normal;
+font-size:15.0000pt;
+}
+
+p.MsoTitle{
+mso-style-name:Title;
+mso-style-next:Normal;
+margin-top:0.0000pt;
+margin-bottom:3.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+font-size:26.0000pt;
+}
+
+span.msoIns{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:underline;
+text-underline:single;
+color:blue;
+}
+
+span.msoDel{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:line-through;
+color:red;
+}
+
+table.MsoNormalTable{
+mso-style-name:"Table Normal";
+mso-style-parent:"";
+mso-style-noshow:yes;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+
+table.MsoTableGrid{
+mso-style-name:"Table Grid";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-border-top-alt:0.5000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;
+mso-border-right-alt:0.5000pt solid windowtext;
+mso-border-insideh:0.5000pt solid windowtext;
+mso-border-insidev:0.5000pt solid windowtext;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:none;
+text-align:justify;
+text-justify:inter-ideograph;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+
+table.19{
+mso-style-name:"Table Normal1";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+@page{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}@page Section0{
+margin-top:72.0000pt;
+margin-bottom:72.0000pt;
+margin-left:72.0000pt;
+margin-right:72.0000pt;
+size:595.4500pt 841.7000pt;
+mso-header-margin:36.0000pt;
+mso-footer-margin:36.0000pt;
+}
+div.Section0{page:Section0;}
+    </style>
+</head>
+<body style="tab-interval:36pt;"><!--StartFragment-->
+<div class="Section0">
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">ما يجب الوقاية منه عند الرضع والأطفال والمراهقين؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">بعض المشكلات البصرية بين الرضع والأطفال والمراهقين مثل الغمش يمكن علاجها في الأخص عند الرضع والأطفال الصغار والتي يصعب بعد ذلك علاجها عند نموهم لذلك أمام أي من الأعراض التالية فإنه من المستحسن إجراء مراجعة كاملة عند اختصاصي في طب عيون الأطفال:</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">أداء مدرسي ضعيف</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">قلة الانتباه والتركيز</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">يتجنب الأنشطة مثل القراءة، الرسم، أو الألعاب التي تتطلب التركيز عن قرب</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">حركات الرأس غير طبيعية (يحني رأسه للتركيز)</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">صعوبة في تمييز الألوان</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">الانزعاج من الضوء</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">احمرار العينين</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:36.0000pt;
+text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
+mso-list:l0 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">بقع بيضاء في منطقة الحدقة</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">لماذا مراجعات العيون مهمة جدا عند الرضع والأطفال والمراهقين؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="padding:0pt 0pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
+line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">الرؤية الجيدة ضرورية من أجل النمو البدني للطفل والنجاح الأكاديمي والرفاه العام. الجهاز البصري للرضع والأطفال الصغار لا يتطور بشكل كامل و لذلك هم بحاجة لأستقبال المعلومات من كلتا العينين لتطوير قابلية الرؤية بشكل صحيح في الدماغ. فأذا لم ترسل عيون الطفل صور واضحة إلى الدماغ قد يعني أن قابلية الرؤيه لديه محدودة و قد يصعب تصحيحها في المستقبل. لكن إذا تم الكشف عن المشكلات في وقت مبكر فمن الممكن عادة علاجها بشكل فعال.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-top:0.0000pt;margin-right:55.0000pt;mso-para-margin-top:1.2500gd;
+mso-para-margin-right:0.0000gd;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><img width="524" height="249"
+                                                                src="images/protection_article.png"><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">الأطفال حديثي الولادة</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">من المهم فحص عيون الأطفال حديثي الولادة و اجراء اختبار المنعكس الأحمر (المؤشر الأساسي للعين السليمة) و كذلك الحال بالنسبة للأطفال الخدج والتأكد أذا كان الطفل معرض للاصابة بمشكلات بصرية اخرى ناتجة عن اضطرابات بصرية وراثية خطيرة تظهر في مرحلة الطفولة أو بسبب أعراض غير طبيعية.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">من عمر 6 شهور الى السنة الأولى</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">من الضروري إجراء فحص ثاني العين في الأطفال الأصحاء بين ستة شهور والسنة الأولى من العمر.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">فحص الأطفال من واحد الى 2 سنة</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">يمكن أجراء فحص لهم لتقييم قدراتهم البصرية قبل مرحلة النطق و معرفة قابلية توازي الرؤية لديهم</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">عند وجود تفاوت في العينين لدى الطفل أي قد يكون لديه غمش أو أخطاء أنكسارية عند ذاك يجب مراجعة الطبيب لإجراء الفحص اللازم و البدء بالعلاج بأسرع وقت ممكن</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">في عمر 3 سنوات</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">من الثلاث سنوات وقبل الوصول الى الاربع سنوات لا بد من فحص رؤية الطفل و قدرة توازي العينين و فحص حدة البصر عندما يكون الطفل متعاوناً. الاختبارات الضوئية هي وسيلة أخرى للتحقق من حدة البصر دون تعاون الطفل و يمكن معرفة إذا كان الطفل قادر على التركيز على مسافة بعيدة و المسافة القريبة والمسافة المتوسطة.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">في حالة وجود تفاوت الرؤية عند الطفل أو وجود غمش أو عيوب انكسارية يجب مراجعة الطبيب &nbsp;لبدء العلاج في أقرب وقت ممكن.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">من 4 سنوات حتى سن المراهقة</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">عندما يبدأ الطفل المدرسة أو في أي وقت عندما يكون هناك شك بوجود مشكلة بصرية فمن الضروري إجراء مراجعة للكشف عن أي خلل أو مشكلات انكسارية وغيرها. &nbsp;قصر النظر هو الخطأ الانكساري الأكثر شيوعا في هذه المرحلة من العمر حيث يجب تصحيحه باستخدام النظارات.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
+line-height:137%;background:rgb(255,255,255);"><b style="mso-bidi-font-weight:normal"><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">المشكلات البصرية الأكثر شيوعا وعلامات التحذير عند الرضع والأطفال والمراهقين:</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <table class=MsoTableGrid border=1 cellspacing=0 style="border-collapse:collapse;width:100.0000%;border:none;
+mso-border-left-alt:0.5000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;mso-border-insideh:0.5000pt solid windowtext;mso-border-insidev:0.5000pt solid windowtext;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;">
+        <tr style="height:22.3000pt;">
+            <td width=49.9800% valign=center style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(16,51,99);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(255,255,255);
+font-size:16.0000pt;">أعراض و إشارات تحذيرية</span><span
+                        style="font-family:Arial;color:rgb(255,255,255);font-size:11.0000pt;"><o:p></o:p></span>
+                </p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(16,51,99);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(255,255,255);
+font-size:16.0000pt;">مشكلات بصرية أكثر شيوعاُ في هذه المرحلة</span><span
+                        style="font-family:Arial;color:rgb(255,255,255);font-size:11.0000pt;"><o:p></o:p></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=right
+                   style="mso-para-margin-left:0.0000gd;text-align:right;line-height:150%;"><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">صداع أو ألم في الرقبة</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right
+                   style="mso-para-margin-left:0.0000gd;text-align:right;line-height:150%;"><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">عندما يتعلم القراءة, يبدأ بتجاوز كلمات أو يمزج الحروف</span><span dir="RTL"
+                                                                                        style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">غمش أو العين الكسولة</span></b><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal
+                   style="mso-pagination:widow-orphan;text-align:left;line-height:150%;"><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span></p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:6.0000pt;mso-pagination:widow-orphan;
+text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">اختلال في توازي العيني</span><span
+                        style="font-family:SimSun;font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span>
+                </p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:6.0000pt;mso-pagination:widow-orphan;
+text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">العينان لا تتحركان معاً في نفس الاتجاه</span><span
+                        style="font-family:SimSun;font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span>
+                </p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:0.0000pt;mso-para-margin-bottom:0.3000gd;
+mso-pagination:widow-orphan;text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">إمالة الرأس جانبيا للنظر في نقاط محددة</span><span
+                        style="font-family:SimSun;font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span>
+                </p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:3.6000pt;mso-pagination:widow-orphan;
+text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">عادة يرمش أو يفرك عينيه</span><span
+                        style="font-family:SimSun;font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span>
+                </p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:0.0000pt;mso-pagination:widow-orphan;
+text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;</span><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;">الطفل يدير إحدى العينين او يغلقها ليركز</span><span
+                        style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+                <p class=p align=right style="margin-top:0.0000pt;margin-bottom:0.0000pt;mso-pagination:widow-orphan;
+text-align:right;line-height:150%;"><span style="font-family:Arial;color:rgb(16,51,99);font-style:normal;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">حول</span></b><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=right
+                   style="mso-para-margin-left:0.0000gd;text-align:right;line-height:150%;"><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">إغماض العينين للتركيز لمسافات طويلة</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.2500gd;mso-para-margin-left:0.0000gd;
+text-align:right;line-height:150%;"><span style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">عدم تمييز ملامح الناس من مسافة بعيدة</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.5000gd;mso-para-margin-left:0.0000gd;
+text-align:right;line-height:150%;"><span style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">تفضيل الأنشطة التي تتطلب استخدام الرؤية القريبة</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.2100gd;mso-para-margin-left:0.0000gd;
+text-align:right;line-height:150%;"><span style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">تقريب الأجسام لمشاهدتها أو للقراءة</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.3000gd;mso-para-margin-left:0.0000gd;
+text-align:right;line-height:150%;"><span style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">مشاهدة التلفزيون أو الكمبيوتر على مسافة قريبة</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.2500gd;mso-para-margin-left:0.0000gd;
+text-align:right;line-height:150%;"><span style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;">إغلاق العينين قليلا لتركيز الرؤية</span><span
+                        style="font-family:Arial;mso-fareast-font-family:SimSun;line-height:150%;
+color:rgb(16,51,99);font-style:normal;font-size:12.0000pt;"><o:p></o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">قصر النظر و الأنحراف البصري (اللابؤرية)</span></b><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr style="height:16.3500pt;">
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">صداع في ساعة أداء الأنشطة التي تحتاج الرؤية القريبة</span><span dir="RTL"
+                                                                                      style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">إجهاد العين بعد هذا النوع من الأنشطة</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">إحمرار</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">إمالة الرأس إلى الخلف</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">إغلاق العينين قليلا لتركيز الرؤية</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">طول النظ</span></b><b><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;"><font face="Arial">ر</font></span></b><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=right style="margin-top:0.0000pt;mso-para-margin-top:0.5000gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><span style="font-family:Arial;mso-spacerun:'yes';">&nbsp;</span></span><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">التغيرات في رؤية اللون</span><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">الاضطراب في تمييز الألوان</span></b><span
+                        style="font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=49.9800% valign=top style="width:49.9800%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">تدميع</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">الإفرازات الصباحية للعين (التهاب الملتحمة المعدية)</span><span dir="RTL"
+                                                                                     style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;">الليمفاوية الموسعة (التهاب الملتحمة الفيروسي)</span><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+                <p class=MsoNormal align=right style="margin-bottom:0.0000pt;mso-para-margin-bottom:0.2100gd;text-align:right;
+line-height:150%;"><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><span style="mso-spacerun:'yes';">&nbsp;</span>الحكة (التهاب الملتحمة التحسسي)</span><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+            </td>
+            <td width=50.0000% valign=center style="width:50.0000%;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;
+mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;
+border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;
+mso-border-bottom-alt:0.5000pt solid windowtext;background:rgb(241,241,241);">
+                <p class=MsoNormal align=center style="text-align:center;line-height:150%;"><b><span
+                        dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;">رمد (التهاب الملتحمة)</span></b><b><span dir="RTL" style="font-family:Arial;line-height:150%;color:rgb(16,51,99);
+font-weight:bold;font-size:13.5000pt;"><o:p></o:p></span></b></p>
+            </td>
+        </tr>
+    </table>
+    <p class=MsoNormal><span style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL"><span dir="LTR"
+                                       style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span>
+    </p>
+    <p class=MsoNormal align=justify dir="RTL" style="padding:0pt 0pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
+background:rgb(255,255,255);"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
+    <p class=MsoNormal dir="RTL"><span dir="LTR"
+                                       style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span>
+    </p>
+</div><!--EndFragment--></body>
+</html>

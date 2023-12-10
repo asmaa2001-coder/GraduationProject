@@ -48,10 +48,48 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/adult_hawel"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/back_ground_cards"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/card2_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/card2_image" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/card2"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kid_hawel"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
             app:cardCornerRadius="25dp">
 
             <LinearLayout
@@ -63,51 +101,16 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/image"
-                    android:layout_weight="1"
                     android:layout_gravity="center"
-                    />
+                    android:layout_weight="1"
+                    android:src="@drawable/card1_image" />
 
                 <TextView
-                    style="@style/TextAppearance.AppCompat.Headline"
+                    style="@style/TextAppearance.AppCompat.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="dises 1"
-                    android:textAlignment="center" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="4dp"
-            android:layout_weight="1"
-            app:cardCornerRadius="25dp" >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-
-                android:orientation="vertical">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/image"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    />
-
-                <TextView
-                    style="@style/TextAppearance.AppCompat.Headline"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="dises 1"
+                    android:text="@string/card1"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -122,42 +125,12 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/differance_lazy_hawel"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            app:cardCornerRadius="25dp" >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:orientation="vertical">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/image"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    />
-
-                <TextView
-                    style="@style/TextAppearance.AppCompat.Headline"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="dises 1"
-                    android:textAlignment="center" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_margin="4dp"
-            android:layout_weight="1"
+            android:backgroundTint="@color/white"
             app:cardCornerRadius="25dp">
 
             <LinearLayout
@@ -171,15 +144,48 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/card4_image" />
 
                 <TextView
-                    style="@style/TextAppearance.AppCompat.Headline"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/card4"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lazy_article"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:onClick="lazyArtice"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="dises 1"
+                    android:src="@drawable/card3_image" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/card3"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -194,11 +200,14 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/protectin"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            app:cardCornerRadius="25dp" >
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="25dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -208,28 +217,53 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/image"
-                    android:layout_weight="1"
                     android:layout_gravity="center"
-                    />
+                    android:layout_weight="1"
+                    android:src="@drawable/card6_image" />
 
                 <TextView
-                    style="@style/TextAppearance.AppCompat.Headline"
+                    style="@style/TextAppearance.AppCompat.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="dises 1"
+                    android:text="@string/card6"
                     android:textAlignment="center" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/sight_twice"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            app:cardCornerRadius="25dp" />
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/card5_image" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/card5"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
-</LinearLayout>
+
+    </LinearLayout>

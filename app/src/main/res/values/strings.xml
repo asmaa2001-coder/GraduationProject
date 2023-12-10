@@ -13,5 +13,12 @@
     <string name="text_now">التقط الآن</string>
     <string name="exer_headline">التمارين</string>
     <string name="exer_des">يجب تحديد نوعية التمرينات التي ترغب في القيام بها، ليتم توجيهك إليها.</string>
-
+    <string name="start_ex">ابدأ التمرين الآن</string>
+    <string name="card1">الحول عند الأطفال</string>
+    <string name="card2">الحول عند البالغين</string>
+    <string name="card3">الغمش او العين الكسولة</string>
+    <string name="card4">الفرق بين الحول والعين الكسولة</string>
+    <string name="card5">ازدواجية الرؤية</string>
+    <string name="card6">الرضع والأطفال والمراهقين</string>
+    <string name="button_back">العودة</string>
 </resources>

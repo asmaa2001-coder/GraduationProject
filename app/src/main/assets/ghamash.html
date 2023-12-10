@@ -1,0 +1,641 @@
+<html xmlns:o="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8'>
+    <style>
+@font-face{
+font-family:"Times New Roman";
+}
+
+@font-face{
+font-family:"宋体";
+}
+
+@font-face{
+font-family:"SimSun";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@list l0:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:21.0000pt;
+mso-level-number-position:left;
+margin-left:20.9000pt;text-indent:-20.9000pt;font-family:Arial;}
+
+@list l1:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:21.0000pt;
+mso-level-number-position:left;
+margin-left:20.9000pt;text-indent:-20.9000pt;font-family:Arial;}
+
+@list l2:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:21.0000pt;
+mso-level-number-position:left;
+margin-left:20.9000pt;text-indent:-20.9000pt;font-family:Arial;}
+
+@list l3:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"○";
+mso-level-tab-stop:21.0000pt;
+mso-level-number-position:left;
+margin-left:20.9000pt;text-indent:-20.9000pt;font-family:Arial;}
+
+p.MsoNormal{
+mso-style-name:Normal;
+mso-style-parent:"";
+margin:0pt;
+margin-bottom:.0001pt;
+line-height:114%;
+font-family:Arial;
+font-size:11.0000pt;
+}
+
+h1{
+mso-style-name:"Heading 1";
+mso-style-next:Normal;
+margin-top:20.0000pt;
+margin-bottom:6.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+font-size:20.0000pt;
+}
+
+h2{
+mso-style-name:"Heading 2";
+mso-style-next:Normal;
+margin-top:18.0000pt;
+margin-bottom:6.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+mso-ansi-font-weight:normal;
+font-size:16.0000pt;
+}
+
+h3{
+mso-style-name:"Heading 3";
+mso-style-next:Normal;
+margin-top:16.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(67,67,67);
+mso-ansi-font-weight:normal;
+font-size:14.0000pt;
+}
+
+h4{
+mso-style-name:"Heading 4";
+mso-style-next:Normal;
+margin-top:14.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+font-size:12.0000pt;
+}
+
+h5{
+mso-style-name:"Heading 5";
+mso-style-next:Normal;
+margin-top:12.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+font-size:11.0000pt;
+}
+
+h6{
+mso-style-name:"Heading 6";
+mso-style-next:Normal;
+margin-top:12.0000pt;
+margin-bottom:4.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+mso-ansi-font-style:italic;
+font-size:11.0000pt;
+}
+
+span.10{
+font-family:SimSun;
+}
+
+p.p{
+mso-style-name:"Normal \(Web\)";
+margin-top:5.0000pt;
+margin-right:0.0000pt;
+margin-bottom:5.0000pt;
+margin-left:0.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:SimSun;
+font-size:12.0000pt;
+}
+
+p.MsoSubtitle{
+mso-style-name:Subtitle;
+mso-style-next:Normal;
+margin-top:0.0000pt;
+margin-bottom:16.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+color:rgb(102,102,102);
+mso-ansi-font-style:normal;
+font-size:15.0000pt;
+}
+
+p.MsoTitle{
+mso-style-name:Title;
+mso-style-next:Normal;
+margin-top:0.0000pt;
+margin-bottom:3.0000pt;
+page-break-after:avoid;
+mso-pagination:lines-together;
+line-height:114%;
+font-family:Arial;
+font-size:26.0000pt;
+}
+
+span.msoIns{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:underline;
+text-underline:single;
+color:blue;
+}
+
+span.msoDel{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:line-through;
+color:red;
+}
+
+table.MsoNormalTable{
+mso-style-name:"Table Normal";
+mso-style-parent:"";
+mso-style-noshow:yes;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+
+table.18{
+mso-style-name:"Table Normal1";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+
+table.19{
+mso-style-name:"_Style 10";
+mso-style-parent:"Table Normal1";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:'Times New Roman';
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+@page{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}@page Section0{
+margin-top:72.0000pt;
+margin-bottom:72.0000pt;
+margin-left:72.0000pt;
+margin-right:72.0000pt;
+size:595.4500pt 841.7000pt;
+mso-header-margin:36.0000pt;
+mso-footer-margin:36.0000pt;
+}
+div.Section0{page:Section0;}
+
+    </style>
+</head>
+<body style="tab-interval:36pt;"><!--StartFragment-->
+<div class="Section0">
+    <p class=MsoNormal align=justify dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;mso-para-margin-bottom:0.5000gd;
+mso-para-margin-left:0.0000gd;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
+line-height:150%;"><span dir="LTR"
+                         style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:20.9000pt;
+mso-para-margin-bottom:0.5000gd;mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;
+mso-char-indent-count:0.0000;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;mso-list:l3 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
+font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">الغمش أو العين الكسول حالة </span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">ناتجة عن عدم تطور قدرة الأبصار بصورة جيدة في عين واحدة و يحدث في السنوات الأولى من حياة الطفل.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:20.9000pt;mso-para-margin-bottom:0.5000gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l3 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">يمكن ان يحدث كنتيجة </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">للحول أو لتفاوت في درحة قياس البصر </span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">بين العينين أو لأي سبب آخر من شأنه أن يمنع أن تصل الأستجابة البصرية بالشكل الصحيح الى الشبكية عند الطفل (اي كأن تحدث </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">رؤية ضبابية</span></b><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">.</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">(</span><span dir="LTR"
+                                                        style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:20.9000pt;mso-para-margin-bottom:1.0000gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l3 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">و غالباً يصعب أكتشاف الغمش أو العين الكسول لأن أحدى العينين تعمل بصورة سليمة. اما اذا كان مصاحباً لأعراض الحول يمكن لوالديّ الطفل ملاحظة </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أنحراف البصر.</span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;أو لأعراض </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">تدلي الجفن </span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">العلوي أو لمرض ا</span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">لماء الأبيض الخلقي </span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">(عتامة في عدسة العين) حينئذ يكون من السهولة تشخيص الغمش بشكل مبكر عند ملاحظة عدم تساوي الجفون أو غياب الأنعكاس الأحمر في العين أو “البقعة البيضاء” في أحدى العينين.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:27.0000pt;margin-left:20.9000pt;mso-para-margin-left:0.0000gd;
+text-indent:-20.9000pt;mso-char-indent-count:0.0000;border-right:none;
+mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
+mso-list:l3 level1 lfo1;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">علاج العين الكسول هو </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أغلاق أحدى العينين</span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;كذلك تتحكم الأسباب التي قادت الى كسل العين في تحديد نوع العلاج (عن طريق قياس النظر أو بالأجراء الجراحي).</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;mso-para-margin-left:0.0000gd;padding:0pt 0pt 0pt 0pt ;
+text-align:justify;text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL"
+                                                                                    style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">خلل في نمو حاسة البصر في أحدى العينين خلال السنوات الأولى في حياة الطفل.</span><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=p align=right style="margin-top:0.0000pt;margin-bottom:24.0000pt;mso-pagination:widow-orphan;
+text-align:right;mso-line-height-alt:12pt;"><b><span style="mso-spacerun:'yes';font-family:Arial;color:rgb(16,51,99);
+font-weight:bold;font-style:normal;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;"></span></b><b><span style="mso-spacerun:'yes';font-family:SimSun;font-weight:bold;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></b></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;mso-para-margin-left:0.0000gd;padding:0pt 0pt 0pt 0pt ;
+text-align:justify;text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL"
+                                                                                    style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;mso-para-margin-top:0.5000gd;
+mso-para-margin-bottom:1.0000gd;">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;line-height:137%;background:rgb(255,255,255);"><a name="_2yg2b6n806rg"></a><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">ما معنى الغمش أو العين الكسول؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+mso-ansi-font-weight:bold;font-size:12.0000pt;">الغمش أو العين الكسول </span></b><span dir="RTL"
+                                                                                       style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">هو نوع من أضطراب في الرؤية (عين ترى بشكل أسوأ من العين الأخرى) ناتج عن تفاوت في وظيفة العينين خلال السنوات الثمان الأولى من حياة الطفل (أي مرحلة نمو حاسة البصر).</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">على الرغم من عدم وجود أي مرض ظاهر قد يؤثر على قدرة البصر في العينين و ذلك لأستقبال الدماغ بصورة مستمرة لمعلومات بصرية سيئة الجودة من احدى العينين مما يجعله يتجاهلها في نهاية الأمر و مع مرور السنوات تصاب العين بالكسل</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;mso-para-margin-bottom:1.5000gd;">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;line-height:137%;background:rgb(255,255,255);"><a name="_hxnv6qyn3lmh"></a><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">لماذا يحدث الغمش أو العين الكسول؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">يحدث الغمش عندما يتجاهل الدماغ المعلومات البصرية الصادرة من احدى العينين لأنها سيئة الجودة على الرغم من أن بنية العينين تكون سليمة.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">وسبب ذلك هو:</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-left:20.9000pt;mso-para-margin-left:0.0000gd;
+text-indent:-20.9000pt;mso-char-indent-count:0.0000;border-right:none;
+mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
+mso-list:l1 level1 lfo2;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">أضطراب في توازي العينين أو </span><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">حول</span></b><span dir="LTR"
+                                                                                        style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.5000gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l1 level1 lfo2;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">تفاوت الانكسار أي وجود فرق في القوة الانكسارية بين عين و أخرى. أستخدام الطفل للعين التي يستطيع التركيز فيها بشكل أسهل و يهمل العين التي فيها نسبة تفاوت كبيرة. على الرغم من تعايش الطفل مع محيطه العائلي و أهله ألا أن انهم لا يستطيعون الأنتباه لحالة الغمش فيه لأنه يستطيع الرؤية بصورة طبيعية في أحدى العينين.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:20.9000pt;
+mso-para-margin-top:0.5000gd;mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;
+mso-char-indent-count:0.0000;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;line-height:150%;mso-list:l1 level1 lfo2;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
+font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">الغمش أو العين الكسول بسبب الحرمان البصري: </span></b><span><a
+            href="https://icrcat.com/departamentos/catarata/"></a></span><span><a
+            href="https://icrcat.com/departamentos/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
+            href="https://icrcat.com/departamentos/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">الماء</span></a></span><span><a
+            href="https://icrcat.com/departamentos/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
+            href="https://icrcat.com/departamentos/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">الابيض</span></a></span><span><a
+            href="https://icrcat.com/departamentos/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;(عتامة عدسة العين</span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;</span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">و </span><span><a
+            href="https://icrcat.com/patologias/ptosis/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">تدلي</span></a></span><span><a
+            href="https://icrcat.com/patologias/ptosis/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
+            href="https://icrcat.com/patologias/ptosis/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">جفن</span></a></span><span><a
+            href="https://icrcat.com/patologias/ptosis/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
+            href="https://icrcat.com/patologias/ptosis/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(0,106,160);font-size:12.0000pt;">العين</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;(أي تدل جفن العين العلوي) أو </span><span dir="RTL"
+                                                                                          style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">عتامة القرنية </span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">كل هذه الأعراض يمكن أن تسبب عدم نمو القدرة البصرية.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;mso-para-margin-bottom:1.5000gd;">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;line-height:137%;background:rgb(255,255,255);"><a name="_cs17v5jex1rl"></a><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">كيف يمكن تشخيص الغمش أو العين الكسول و ما هي أعراضه؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+mso-ansi-font-weight:bold;font-size:12.0000pt;">كيف يمكن تشخيص الغمش أو العين الكسول و ما هي أعراضه؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">ليس من السهل دائماً تشخيص حالة الغمش فأسبابه تجعل من الصعب تشخيصه من مجرد النظر.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">فضلاً عن ان الخلل البصري هو أحادي و لذلك يصعب جداً على عائلة الطفل أكتشافه. بالأضافة الى أن الأطفال أنفسهم غير واعين لأصابتهم بنقص الرؤية الأحادي في معظم الحالات.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">من المهم </span><b style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+mso-ansi-font-weight:bold;font-size:12.0000pt;">التشخيص و العلاج المبكرين للغمش.</span></b><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">&nbsp;أذ يتنبه الأشخاص الذين أصيبوا بالغمش عند الطفولة عند أنجابهم للاطفال و يُنصحون بأن تكون اول مراجعة لطبيب العيون عندما يكون عمر الطفل 3 سنوات.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">على الرغم من ذلك كله يمكن ان تكون هناك بعض الأشارات التي تلفت الأنتباه للغمش و تجعل من المهم البدء بمراجعة طبيب عيون الأطفال و ذلك عندما يكون مصاحباً لمرض بصري معين عند الطفل مثل:</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:20.9000pt;
+mso-para-margin-bottom:0.5000gd;mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;
+mso-char-indent-count:0.0000;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">اغلاق الكامل أو شبه الأغلاق للعينين عند محاولة رؤية شيء محدد</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-left:20.9000pt;mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;
+mso-char-indent-count:0.0000;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">ميلان العنق بشكل مستمر في نفس الأتجاه (الصعر) في محاولة لتثبيت الرؤية.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.2800gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">حك العينين بشكل متكرر و الحكة البصرية.</span><span dir="LTR"
+                                                                         style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.2800gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">الآلآم المتكررة في الرأس خاصةً في وقت المساء</span><span dir="LTR"
+                                                                               style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.2800gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">التقرب بشكل كبير الى الورقة للقراءة أو للرسم</span><span dir="LTR"
+                                                                               style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.2800gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">تدمع العين و أحمرارها</span><span dir="LTR"
+                                                        style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-left:20.9000pt;mso-para-margin-top:0.2800gd;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">التحسس من الضوء (رهاب الضوء) أو صعوبة الرؤية في العتمة (التعثر في الأماكن ذات الأضاءة الخافتة)</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:20.9000pt;
+mso-para-margin-top:0.5000gd;mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;
+mso-char-indent-count:0.0000;border-right:none;mso-border-right-alt:none;
+padding:0pt 12pt 0pt 0pt ;mso-list:l0 level1 lfo3;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">أنحراف بصري</span><span dir="LTR"
+                                              style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;mso-para-margin-bottom:1.5000gd;">
+    <hr size="2" width="100%" align=center>
+    </p>
+    <h2 dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
+mso-pagination:none;line-height:137%;background:rgb(255,255,255);"><a name="_ki85nne9sf10"></a><b
+            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">كيف يمكن علاجه؟</span></b><b
+            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:137%;
+color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;">يتضمن علاج الغمش على:</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;color:rgb(37,37,37);
+font-size:12.0000pt;"><o:p></o:p></span></p>
+    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:20.9000pt;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l2 level1 lfo4;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">تصحيح العيوب الأنكسارية (قصر أو بُعد النظر) من خلال أستخدام النظارات</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:20.9000pt;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l2 level1 lfo4;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">أزالة العائق الذي يمنع الأستجابة الصحيحة للشبكية في العينين بشكل متوازي (جراحة لأزالة الماء الأبيض و لعلاج تدلي الجفن أو من أجل تقليل عتامة القرنية و الى آخره)</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:20.9000pt;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l2 level1 lfo4;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">فحص و تصحيح الحول الذي يُصعّب توازي حركة العينين</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:20.9000pt;
+mso-para-margin-left:0.0000gd;text-indent:-20.9000pt;mso-char-indent-count:0.0000;
+border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
+line-height:150%;mso-list:l2 level1 lfo4;"><![if !supportLists]><span
+            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
+            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
+            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">غلق العين بلصقاب بصرية من أجل تمرين العين المصاب بالغمش أثناء قيام الطفل بنشاطات مثل الرسم او التلوين أو القراءة.</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
+text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
+color:rgb(37,37,37);font-size:12.0000pt;">ما يهم في حالة الغمش هو التشخيص و العلاج المبكرين أذ يمكن من خلاله التنبؤ بصحة بصر الطفل</span><span
+            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p></o:p></span>
+    </p>
+</div><!--EndFragment--></body>
+</html>

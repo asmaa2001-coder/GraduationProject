@@ -25,5 +25,21 @@
         android:id="@+id/articlesFragment"
         android:name="com.example.lazyeye.articles.Articles"
         android:label="fragment_articles"
-        tools:layout="@layout/fragment_articles" />
+        tools:layout="@layout/fragment_articles" >
+        <action
+            android:id="@+id/action_articlesFragment_to_articleContent"
+            app:destination="@id/articleContent" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleContent"
+        android:name="com.example.lazyeye.articles.ArticleContent"
+        android:label="fragment_article_content"
+        tools:layout="@layout/fragment_article_content" >
+        <action
+            android:id="@+id/action_articleContent_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_articleContent_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+    </fragment>
 </navigation>

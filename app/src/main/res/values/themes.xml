@@ -4,7 +4,7 @@
         <item name="colorPrimary">@color/white</item>
         <item name="colorAccent">@color/white</item>
         <item name="cardBackgroundColor">@color/white</item>
-        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryDark">@color/item_non_activate</item>
     </style>
 
     <style name="Theme.LazyEye" parent="Base.Theme.LazyEye" />
