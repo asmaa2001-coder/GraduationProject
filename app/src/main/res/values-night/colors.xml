@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_nav">@color/white</color>
+    <color name="item_non_activate">@color/black</color>
+    <color name="item_activate">#001B79</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lazy eye</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_headline_articles">معلومات وإرشادات</string>
+    <string name="text_secheadline_articles">تم تشخيص العديد من الأمراض المتاحة حتى الآن وإدراج العديد من الإرشادات والتعليمات لكل مرض، قم باختيار نوع المرض المصاب به لمتابعة القراءة</string>
+    <string name="card1_headline">الحول</string>
+    <string name="card2_headline">الحول الخلقي</string>
+    <string name="card3_headline">الحول</string>
+    <string name="card4_headline">الحول</string>
+    <string name="card5_headline">الحول</string>
+    <string name="take_photo">التقط صورة</string>
+    <string name="text_des">قم بالسماح للوصول إلى الكاميرا ليتم التقاط صورة لمكان المرض ليتم تشخيصه بشكل دقيق وترشيح التمارين والإجراءات المناسبة لعلاجه</string>
+    <string name="text_now">التقط الآن</string>
+    <string name="exer_headline">التمارين</string>
+    <string name="exer_des">يجب تحديد نوعية التمرينات التي ترغب في القيام بها، ليتم توجيهك إليها.</string>
+
+</resources>
