@@ -1,1236 +1,245 @@
-<html xmlns:o="http://www.w3.org/1999/xhtml">
+<html>
+<html lang="ar" dir="rtl">
 <head>
-    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8' >
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8'>
 
-    <style>
-@font-face{
-font-family:"Times New Roman";
-}
 
-@font-face{
-font-family:"宋体";
-}
-
-@font-face{
-font-family:"SimSun";
-}
-
-@font-face{
-font-family:"Wingdings";
-}
-
-@font-face{
-font-family:"Arial";
-}
-
-@list l0:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l2:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l3:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l4:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l5:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-p.MsoNormal{
-mso-style-name:Normal;
-mso-style-parent:"";
-margin:0pt;
-margin-bottom:.0001pt;
-line-height:114%;
-font-family:Arial;
-font-size:11.0000pt;
-}
-
-h1{
-mso-style-name:"Heading 1";
-mso-style-next:Normal;
-margin-top:20.0000pt;
-margin-bottom:6.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-font-size:20.0000pt;
-}
-
-h2{
-mso-style-name:"Heading 2";
-mso-style-next:Normal;
-margin-top:18.0000pt;
-margin-bottom:6.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-mso-ansi-font-weight:normal;
-font-size:16.0000pt;
-}
-
-h3{
-mso-style-name:"Heading 3";
-mso-style-next:Normal;
-margin-top:16.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(67,67,67);
-mso-ansi-font-weight:normal;
-font-size:14.0000pt;
-}
-
-h4{
-mso-style-name:"Heading 4";
-mso-style-next:Normal;
-margin-top:14.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-font-size:12.0000pt;
-}
-
-h5{
-mso-style-name:"Heading 5";
-mso-style-next:Normal;
-margin-top:12.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-font-size:11.0000pt;
-}
-
-h6{
-mso-style-name:"Heading 6";
-mso-style-next:Normal;
-margin-top:12.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-mso-ansi-font-style:italic;
-font-size:11.0000pt;
-}
-
-span.10{
-font-family:SimSun;
-}
-
-p.MsoSubtitle{
-mso-style-name:Subtitle;
-mso-style-next:Normal;
-margin-top:0.0000pt;
-margin-bottom:16.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-mso-ansi-font-style:normal;
-font-size:15.0000pt;
-}
-
-p.MsoTitle{
-mso-style-name:Title;
-mso-style-next:Normal;
-margin-top:0.0000pt;
-margin-bottom:3.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-font-size:26.0000pt;
-}
-
-span.msoIns{
-mso-style-type:export-only;
-mso-style-name:"";
-text-decoration:underline;
-text-underline:single;
-color:blue;
-}
-
-span.msoDel{
-mso-style-type:export-only;
-mso-style-name:"";
-text-decoration:line-through;
-color:red;
-}
-
-table.MsoNormalTable{
-mso-style-name:"Table Normal";
-mso-style-parent:"";
-mso-style-noshow:yes;
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-
-table.17{
-mso-style-name:"Table Normal1";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-
-table.19{
-mso-style-name:"_Style 10";
-mso-style-parent:"Table Normal1";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-
-table.18{
-mso-style-name:"_Style 11";
-mso-style-parent:"Table Normal1";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:5.0000pt 5.0000pt 5.0000pt 5.0000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-@page{mso-page-border-surround-header:no;
-	mso-page-border-surround-footer:no;}@page Section0{
-margin-top:72.0000pt;
-margin-bottom:72.0000pt;
-margin-left:72.0000pt;
-margin-right:72.0000pt;
-size:595.4500pt 841.7000pt;
-mso-header-margin:36.0000pt;
-mso-footer-margin:36.0000pt;
-}
-div.Section0{page:Section0;}
-    </style>
 </head>
-<body style="tab-interval:36pt;"><!--StartFragment-->
-<div class="Section0">
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_wt5egwcrjszg"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">كل ما تريد معرفته عن...</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;ازدواجية الرؤية &nbsp;</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">لديه أعراض واضحة و تختلف طبيعة أسبابه.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.5000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">تداخل الصور في الرؤية المزدوجة يكون على نمطين </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أفقي و عامودي </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أو </span><b style="mso-bidi-font-weight:normal"><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">مائل .</span></b><span dir="LTR"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و يمكن ان يكون </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ثنائي العينين</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">، أي يختفي عند غلق أحدى أو كلتا العينين، أو </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أحادي العينين، </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">بمعنى ان أعراضه تقاوم عند غلق العين بشكل متناوب.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-left:36.0000pt;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هناك مجموعة من الأسباب التي تؤدي الى حدوثه قد تكون من ضمنها أضطرابات في بنية العين و كذلك المشكلات الأنكسارية و الماء الأبيض و أعتلالات الشبكية الى آخره.. أو الأمراض التي تسبب عدم توازن العينين مثل الحول اللامعاوض و الأمراض العصبية مثل شلل الأعصاب في العضلات المُحركة للعين و كذلك مشكلات الغدة الدرقية أو العضلية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:36.0000pt;
-mso-para-margin-top:1.0000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l0 level1 lfo1;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">العلاج مرتبط بالسبب</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;يحدد العلاج أذا كان السبب في العين إذا كان إزدواجية الرؤية ثنائي العين (بسبب عدم التوازن البصري) يمكن أن يبدأ العلاج من خلال مراقبة الحالة أو أستخدام العدسات الموشورية أو توكسين البوتولينوم الى حتى أجراء الجراحة.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">تتعدد أنواع حالة </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ازدواجية الرؤية </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و ذات أسباب مختلفة و متفاوتة الخطورة. لذلك من الضروري</span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;القيام بالفحص و بشكل طارئ </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عند ظهور الأعراض. الحول و المشكلات &nbsp;الأنكسارية غير المُعالجة و الماء الأبيض و الأمراض الشبكية و بعض الاضطرابات العضلية و العصبية ما هي إلا بعض من أسباب إزدواجية الرؤية</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ازدواجية الرؤية هو اضطراب بصري يسبب رؤية مزدوجة أذ يشتكي المريض &nbsp;من </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><font face="Arial">“أنه يرى بشكل مزدوج”.</font></span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;و يمكن أن تكون هذه الحالة على شكل:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.5000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l3 level1 lfo2;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أفقي: </span></b><span dir="RTL"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عندما تتداخل الصور الواحدة بجانب الأخرى</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l3 level1 lfo2;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">عمودي: </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عندما تتداخل الصور الواحدة فوق الأخرى</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:27.0000pt;margin-left:36.0000pt;text-indent:-18.0000pt;
-border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
-line-height:150%;background:rgb(255,255,255);mso-list:l3 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">مائلة:</span></b><span dir="RTL"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عندما تكون الصور متداخلة أو منحرفة</span><span dir="LTR"
-                                                                                         style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">الأشخاص ممن لديهم هذه الأعراض يشكون من الرؤية المزدوجة بشكل لحظي أو مستمر</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">تنقسم &nbsp;إزدواجية الرؤية إلى أنواع:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.5000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l5 level1 lfo3;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ازدواجية الرؤية في عين واحدة. </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">بقاء إزدواجية الرؤية على الرغم من إغلاق العين بشكل متناوب</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:27.0000pt;margin-left:36.0000pt;text-indent:-18.0000pt;
-border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
-line-height:150%;background:rgb(255,255,255);mso-list:l5 level1 lfo3;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ازدواجية الرؤية في كلتا العينين.</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;أختفاء إزدواجية الرؤية عند أغلاق إحدى العينين والسبب الرئيسي لذلك هو عدم توازن العينين</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_8ytlqbhyf0e8"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">من هم الأشخاص المعرضين أكثر للإصابة بأزدواجية الرؤية؟</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=left dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;layout-grid-mode:char;
-text-align:justify;text-justify:distribute-all-lines;line-height:150%;
-background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ازدواجية الرؤية لا تتحدد بفترة عمرية أذ يمكن أن يعاني الأطفال أمراضاً تؤدي بهم للأصابة بأزدواجية الرؤية أو حتى في بدايات الحول الأكثر شدة حيث يحدث تقطع بصورة سريعة مما يؤدي إلى أعراض ازدواجية الرؤية مع ذلك، </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">انحرافات البصر الناتجة عن الحول، خاصة لدى الأطفال، بمرور الوقت فإن الدماغ يعمل على تعويضها، </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و بذلك تختفي إزدواجية الرؤية أولئك الذين يعانون انحراف البصر في الطفولة لا تظهر لديهم أعراض إزدواجية الرؤية عند البلوغ.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_rxtgntlpcmor"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">لماذا أرى بشكل مزدوج؟</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">تنقسم الأسباب بحسب نوع أزدواجية الرؤية (أحادي العين أو ثنائي العين)</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ازدواجية الرؤية الأحادية: </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">إزدواجية الرؤية الأحادية تكون أسبابها في بنية العين و نادراً ما تكون متعلقة باضطرابات عصبية بعض الأسباب يمكن أن تكون:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.5000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l2 level1 lfo4;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">اضطرابات في العين، أي قد تكون </span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">مشكلات</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">في</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">قياس</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/ca/departaments/cirurgia-refractiva/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">البصر</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;أي عدم ارتداء النظارة الطبية رغم الحاجة أليها و في هذه الحالة يمكن تصحيح البصر بأرتدائها</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l2 level1 lfo4;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">مشكلات في عدسة العين، منها </span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الماء</span></a></span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الأبيض</span></a></span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;(</span></a></span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الساد</span></a></span><span><a
-            href="https://icrcat.com/patologias/catarata/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">)</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;مما يسبب لأزدواجية الرؤية في العين المصاب</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l2 level1 lfo4;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">امراض القرنية قد تكون منها جرح القرنية أو عتامة القرنية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:27.0000pt;margin-left:36.0000pt;text-indent:-18.0000pt;
-border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
-line-height:150%;background:rgb(255,255,255);mso-list:l2 level1 lfo4;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أو اضطرابات في الشبكية مثل </span><span><a
-            href="https://icrcat.com/patologias/membrana-epirretiniana-macular/"><span dir="RTL"
-                                                                                       style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الغشاء</span></a></span><span><a
-            href="https://icrcat.com/patologias/membrana-epirretiniana-macular/"><span dir="RTL"
-                                                                                       style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/patologias/membrana-epirretiniana-macular/"><span dir="RTL"
-                                                                                       style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الفوق</span></a></span><span><a
-            href="https://icrcat.com/patologias/membrana-epirretiniana-macular/"><span dir="RTL"
-                                                                                       style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/patologias/membrana-epirretiniana-macular/"><span dir="RTL"
-                                                                                       style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الشبكي</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">، و هي أغشية تنمو فوق الشبكية.</span><span dir="LTR"
-                                                                                     style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يمكن علاج حالة ازدواجية الرؤية مرتبط اذا امكن علاج هذه الاضطرابات السابقة الذكر.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ازدواجية الرؤية الثنائية. </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">في حالة ازدواجية الرؤية الثنائية، يمكن أن تكون أسبابها الاضطرابات العصبية أو مشكلات عضلية أو بصرية. بعض الأسباب يمكن أن تكون:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.2800gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);mso-list:l1 level1 lfo5;"><![if !supportLists]><span
-            style="font-family:Arial;font-size:11.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span><a
-            href="https://icrcat.com/patologias/estrabismo/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الحول</span></a></span><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">، يمكن أن يكون حول متقطع أي أن انحراف العين يبدأ من الطفولة و يُصحح في الكبر</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.2800gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);mso-list:l1 level1 lfo5;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">اضطرابات عصبية، </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">شلل في الأعصاب القحفية (الأعصاب التي تحمل المعلومات الى العضلات حيث تصاب بنوبة قلبية مما يؤدي الى شلل في هذه العضلات و بالتالي عدم توازي العينين أي ازدواجية الرؤية)</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);mso-list:l1 level1 lfo5;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">أضطربات في النظام العصبي المركزي</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">, تؤدي الى عدم توازي العينين و بالتالي الى ازدواجية الرؤية; أو</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);mso-list:l1 level1 lfo5;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يمكن أن يكون أيضً بسبب </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">مشكلات في البنية العضلية العصبية </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و هي موقع أتحاد العصب مع العضلة البصرية الخارجية المسؤولة عن توازي العينين.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:27.0000pt;margin-left:36.0000pt;text-indent:-18.0000pt;
-border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
-text-align:justify;text-justify:inter-ideograph;line-height:150%;
-background:rgb(255,255,255);mso-list:l1 level1 lfo5;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هناك عوامل أخرى مثل مشكلات الغدد فضلاً عن اضطرابات حركية في العضلات البصرية الخارجية المسؤولة عن توازي العينين.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_42axxq7bk2ha"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">كيف يكون التشخيص؟</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ازدواجية الرؤية ظاهر للعيان إذ يبدو واضحا للطبيب و ملفت للانتباه بالنسبة للمريض و يسبب له عدم الراحة في النظر وهو ما يدفع المريض لمراجعة الطبيب لأنه “يرى بشكل مزدوج”</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أثناء الفحص يقوم الطبيب بتحديد السبب للرؤية الازدواجية و يقوم بإجراء فحص بصري كامل يشمل:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-mso-para-margin-bottom:0.5000gd;text-indent:-18.0000pt;border-right:none;
-mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);
-mso-list:l4 level1 lfo6;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">فحص حركة العينين </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">(المقدرة على القيام بتحريك العينين بصورة منسجمة) لمعرفة أذا ما كان هناك خلل في أحد العضلات كأن يكون مشلولاً أو مفرط النشاط بمعنى أن يعمل أكثر مما محدد له.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:0.0000pt;margin-left:36.0000pt;mso-para-margin-bottom:0.5000gd;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);mso-list:l4 level1 lfo6;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">القيام بفحوصات </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">لتقييم الحول </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أخذ القياسات بحسب كل أتجاه للرؤية</span><span dir="LTR"
-                                                                                        style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:27.0000pt;margin-left:36.0000pt;text-indent:-18.0000pt;
-border-right:none;mso-border-right-alt:none;padding:0pt 12pt 0pt 0pt ;
-text-align:justify;text-justify:inter-ideograph;line-height:150%;
-background:rgb(255,255,255);mso-list:l4 level1 lfo6;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">الطلب من المريض لإجراء </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">فحوصات تكميلية </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">قد تشمل تحليل عام للدم و للهرمونات (لفحص عمل الغدد) و كذلك لاستبعاد أي أمراض بكتيرية أو مناعية؛ فحوصات صورية (الرنين المغناطيسي للرأس أو التصوير المقطعي المحوسب) للرأس و للعين و ذلك عند الشك بوجود سبب عصبي أو نفسية؛ تخطيط العضلات عند وجود الشك بوجود أمراض عضلية أو أي أمراض أخرى.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_78v7g27lf9nv"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">هل هي حالة خطرة؟ يستدعي الذهاب الى الطوارئ؟</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">إذا كان لدى المريض رؤية ازدواجية </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">عليه الذهاب الى</span></b><span><a
-            href="https://icrcat.com/departamentos/urgencias/"></a></span><span><a
-            href="https://icrcat.com/departamentos/urgencias/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">&nbsp;</span></a></span><span><a
-            href="https://icrcat.com/departamentos/urgencias/"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);font-size:12.0000pt;">الطوارئ</span></a></span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;</span><b style="mso-bidi-font-weight:normal"><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">فوراً، </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">من أجل تحديد السبب.</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">إن كان بسبب الحول اللامعاوض سيكون هناك وقت كافي لإجراء فحص كامل لكن من الضروري </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">استبعاد أي سبب عصبي آخر</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">، مما يستدعي الأسراع بأجراء مجموعة من الفحوصات أو ريما الأبقاء على المريض في المستشفى لتحديد سبب الرؤية الازدواجية. لذلك ننصح دائما في حالة إصابة المريض بالرؤية الازدواجية الحادة الذهاب في الحال إلى الطوارئ</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يكون التداخل الجراحي ضروري في حالة أزدواجية الرؤية عندما لا تنفع العلاجات بواسطة العدسات الموشورية</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">.</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">العدسات الموشورية</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;</span></b><span dir="RTL"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هي عدسات توضع في النظارات لتساعد في نقل الصورة الناتجة عن ازدواجية الرؤية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">عندما لا يكون هذا العلاج نافعاً </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عندما يكون الأنحراف البصري عالي جداً أو عند عدم تكيف المريض مع العدسات الموشورية قد يكون بسبب درجة الانحراف أو لأسباب جمالية، يمكن في هذه الحالة اختيار العلاج بحقن مادة توكسين البوتولينيوم أو أجراء جراحة بحسب تقييم حالة كل المريض.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <h2 align=justify dir="RTL" style="margin-top:0.0000pt;margin-bottom:12.0000pt;padding:0pt 0pt 0pt 0pt ;
-mso-pagination:none;text-align:justify;text-justify:inter-ideograph;
-line-height:150%;background:rgb(255,255,255);"><a name="_a6m3feee9wqa"></a><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;">على ما يتضمن التداخل الجراحي، إذا كان العلاج جراحياً؟</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:17.5000pt;"><o:p></o:p></span></b></h2>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يكون الاختيار جراحياً عند وجود عدم توازي العينين </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">وهي الجراحة التي تعالج حالة الحول </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أي بالتداخل في حركة العضلات لإعادة التوازي البصري </span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">الجراحة لا تستدعي بقاء المريض في المستشفى حيث في أغلب الحالات يستطيع المريض العودة الى بيته في نفس يوم العملية. يكون الأجراء الجراحي تحت تأثير المخدر الموضعي في منطقة العين مع بعض المهدئات. في حالات قليلة و محددة قد يكون التداخل الجراحي تحت تأثير التخدير العام.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);">
-    <hr size="2" width="100%" align=center>
-    </p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">بعد إجراء هذا النوع من العمليات تكون مدة التعافي سريعة نسبياً غالباً ما يباشر المرضى حياتهم الطبيعية (سواء كان عمل أو دراسة) </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">بعد أسبوع من أجراء العملية.</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">قد يشعر المريض ببعض التحسسات كالشعور بوجود جسم غريب في العين أو احتكاك في العين لكن سرعان ما تتحسن الحالة </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">و بغضون أسابيع تختفي هذه الأعراض بشكل كامل.</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ينصح المرضى بعدم الذهاب الى المسابح أو السباحة في البحر و تجنب الرياضة العنيفة لمدة 10 الى 20 يوم تقريباً.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يجب على المريض أتباع الإرشادات الخاصة بالعلاج </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">بالقطرات خلال الشهر الأول </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">وكذلك إجراء الفحوصات الدورية.</span><span dir="LTR"
-                                                                                    style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">بشكل عام يكون أول فحص بعد مرور اربعٍ وعشرين ساعة من العملية بعد ذلك بحسب تحسن الحالة يجرى الفحص الثاني بعد مرور أسبوع و بالنهاية بعد مرور شهر حيث تكون نتائج العملية واضحة تقريباً من خلال تقليل أعراض إزدواجية الرؤية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL"><span dir="LTR"
-                                       style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span>
-    </p>
-</div><!--EndFragment--></body>
+
+
+<body>
+
+<p style="font-size: 18px;">
+    <b>ازدواجية الرؤية</b> لديه أعراض واضحة و تختلف طبيعة أسبابه.
+</p>
+<ul style="font-size: 18px;">
+
+    <li>
+        تداخل الصور في الرؤية المزدوجة يكون على نمطين أفقي و عامودي أو مائل .
+    </li>
+    <br>
+    <li>
+        ويمكن ان يكون ثنائي العينين، أي يختفي عند غلق أحدى أو كلتا العينين، أو أحادي العينين، بمعنى ان أعراضه تقاوم عند
+        غلق العين بشكل متناوب.
+    </li>
+    <br>
+    <li>
+        هناك مجموعة من الأسباب التي تؤدي الى حدوثه قد تكون من ضمنها أضطرابات في بنية العين و كذلك المشكلات الأنكسارية و
+        الماء الأبيض و أعتلالات الشبكية الى آخره.. أو الأمراض التي تسبب عدم توازن العينين مثل الحول اللامعاوض و الأمراض
+        العصبية مثل شلل الأعصاب في العضلات المُحركة للعين و كذلك مشكلات الغدة الدرقية أو العضلية
+    </li>
+    <br>
+    <li>العلاج مرتبط بالسبب يحدد العلاج أذا كان السبب في العين إذا كان إزدواجية الرؤية ثنائي العين (بسبب عدم التوازن
+        البصري) يمكن أن يبدأ العلاج من خلال مراقبة الحالة أو أستخدام العدسات الموشورية أو توكسين البوتولينوم الى حتى
+        أجراء الجراحة.
+
+    </li>
+</ul>
+<hr size="2" width="100%" align=center>
+
+<p style="font-size: 18px;">
+    تتعدد أنواع حالة <b>
+    ازدواجية الرؤية
+</b> و ذات أسباب مختلفة و متفاوتة الخطورة. لذلك من الضروري <b>
+    القيام بالفحص و بشكل طارئ </b>
+    عند ظهور الأعراض. الحول و المشكلات الأنكسارية غير المُعالجة و الماء الأبيض و الأمراض الشبكية و بعض الاضطرابات
+    العضلية و العصبية ما هي إلا بعض من أسباب إزدواجية الرؤية
+</p>
+<br>
+<hr size="2" width="100%" align=center>
+
+
+<p style="font-size: 18px;">
+    ازدواجية الرؤية هو اضطراب بصري يسبب رؤية مزدوجة أذ يشتكي المريض من “أنه يرى بشكل مزدوج”. و يمكن أن تكون هذه الحالة
+    على شكل
+</p>
+<ul style="font-size: 18px;">
+
+    <li>
+        <b>أفقي</b>
+        : عندما تتداخل الصور الواحدة بجانب الأخرى
+    </li>
+    <br>
+    <li>
+        <b>عمودي</b>
+        : عندما تتداخل الصور الواحدة فوق الأخرى
+
+    </li>
+    <br>
+    <li>
+        <b>مائلة</b>
+        :عندما تكون الصور متداخلة أو منحرفة
+    </li>
+</ul>
+<br>
+<p style="font-size: 18px;">
+    الأشخاص ممن لديهم هذه الأعراض يشكون من الرؤية المزدوجة بشكل لحظي أو مستمر
+</p>
+<hr size="2" width="100%" align=center>
+
+<h1 style="font-size: 18px;">تنقسم إزدواجية الرؤية إلى أنواع:</h1>
+<ul style="font-size: 15px;">
+
+    <li>
+        <b>ازدواجية الرؤية في عين واحدة</b>
+        : بقاء إزدواجية الرؤية على الرغم من إغلاق العين بشكل متناوب
+    </li>
+    <br>
+    <li>
+        <b>ازدواجية الرؤية في كلتا العينين</b>
+        : أختفاء إزدواجية الرؤية عند أغلاق إحدى العينين والسبب الرئيسي لذلك هو عدم توازن العينين
+    </li>
+</ul>
+<hr size="2" width="100%" align=center>
+<h1 style="font-size: 20px;">من هم الأشخاص المعرضين أكثر للإصابة بأزدواجية الرؤية؟</h1>
+
+<p style="font-size: 15px;">
+    ازدواجية الرؤية لا تتحدد بفترة عمرية أذ يمكن أن يعاني الأطفال أمراضاً تؤدي بهم للأصابة بأزدواجية الرؤية أو حتى في
+    بدايات الحول الأكثر شدة حيث يحدث تقطع بصورة سريعة مما يؤدي إلى أعراض ازدواجية الرؤية مع ذلك، انحرافات البصر الناتجة
+    عن الحول، خاصة لدى الأطفال، بمرور الوقت فإن الدماغ يعمل على تعويضها، و بذلك تختفي إزدواجية الرؤية أولئك الذين يعانون
+    انحراف البصر في الطفولة لا تظهر لديهم أعراض إزدواجية الرؤية عند البلوغ.
+</p>
+<hr size="2" width="100%" align=center>
+
+<h1 style="font-size: 20px;">لماذا أرى بشكل مزدوج؟</h1>
+
+<p style="font-size: 18px;">
+    تنقسم الأسباب بحسب نوع أزدواجية الرؤية (أحادي العين أو ثنائي العين)
+    <br><br>
+    <b>ازدواجية الرؤية الأحادية</b>
+    : إزدواجية الرؤية الأحادية تكون أسبابها في بنية العين و نادراً ما تكون متعلقة باضطرابات عصبية بعض الأسباب يمكن أن
+    تكون:
+
+    <br>
+<ul style="font-size: 18px;">
+
+    <li>
+        مشكلات في عدسة العين، منها الماء الأبيض (الساد) مما يسبب لأزدواجية الرؤية في العين المصاب
+    </li>
+    <br>
+    <li>
+        امراض القرنية قد تكون منها جرح القرنية أو عتامة القرنية.
+    </li>
+    <br>
+    <li>
+        ضطرابات في الشبكية مثل الغشاء الفوق الشبكي، و هي أغشية تنمو فوق الشبكية.
+    </li>
+</ul>
+<p style="font-size: 18px;">
+    يمكن علاج حالة ازدواجية الرؤية مرتبط اذا امكن علاج هذه الاضطرابات السابقة الذكر
+</p>
+<br>
+<b>ازدواجية الرؤية الثنائية</b>
+: في حالة ازدواجية الرؤية الثنائية، يمكن أن تكون أسبابها الاضطرابات العصبية أو مشكلات عضلية أو بصرية. بعض الأسباب يمكن
+أن تكون:
+
+<ul style="font-size: 18px;">
+
+    <li>
+        الحول:يمكن أن يكون حول متقطع أي أن انحراف العين يبدأ من الطفولة و يُصحح في الكبر
+    </li>
+    <br>
+    <li>
+        ضطرابات عصبية، شلل في الأعصاب القحفية (الأعصاب التي تحمل المعلومات الى العضلات حيث تصاب بنوبة قلبية مما يؤدي الى
+        شلل في هذه العضلات و بالتالي عدم توازي العينين أي ازدواجية الرؤية)
+    </li>
+    <br>
+    <li>
+        أضطربات في النظام العصبي المركزي, تؤدي الى عدم توازي العينين و بالتالي الى ازدواجية الرؤية
+    </li>
+    <li>
+        يمكن أن يكون أيضً بسبب مشكلات في البنية العضلية العصبية و هي موقع أتحاد العصب مع العضلة البصرية الخارجية
+        المسؤولة عن توازي العينين.
+    </li>
+    <li>
+        هناك عوامل أخرى مثل مشكلات الغدد فضلاً عن اضطرابات حركية في العضلات البصرية الخارجية المسؤولة عن توازي العينين.
+    </li>
+</ul>
+</p>
+
+<hr size="2" width="100%" align=center>
+
+<h6 style="font-size: 28px;">كيف يكون التشخيص؟</h6>
+
+<p style="font-size: 18px;">
+    ازدواجية الرؤية ظاهر للعيان إذ يبدو واضحا للطبيب و ملفت للانتباه بالنسبة للمريض و يسبب له عدم الراحة في النظر وهو ما
+    يدفع المريض لمراجعة الطبيب لأنه “يرى بشكل مزدوج”
+    <br><br>
+    أثناء الفحص يقوم الطبيب بتحديد السبب للرؤية الازدواجية و يقوم بإجراء فحص بصري كامل يشمل:
+<ul style="font-size: 18px;">
+
+    <li>
+        فحص حركة العينين (المقدرة على القيام بتحريك العينين بصورة منسجمة) لمعرفة أذا ما كان هناك خلل في أحد العضلات كأن
+        يكون مشلولاً أو مفرط النشاط بمعنى أن يعمل أكثر مما محدد له
+    </li>
+    <br>
+    <li>
+        القيام بفحوصات لتقييم الحول أخذ القياسات بحسب كل أتجاه للرؤية
+    </li>
+    <br>
+    <li>
+        الطلب من المريض لإجراء فحوصات تكميلية قد تشمل تحليل عام للدم و للهرمونات (لفحص عمل الغدد) و كذلك لاستبعاد أي
+        أمراض بكتيرية أو مناعية؛ فحوصات صورية (الرنين المغناطيسي للرأس أو التصوير المقطعي المحوسب) للرأس و للعين و ذلك
+        عند الشك بوجود سبب عصبي أو نفسية؛ تخطيط العضلات عند وجود الشك بوجود أمراض عضلية أو أي أمراض أخرى.
+    </li>
+</ul>
+</p>
+<hr size="2" width="100%" align=center>
+<h1 style="font-size: 20px;">هل هي حالة خطرة؟ يستدعي الذهاب الى الطوارئ؟</h1>
+
+<p style="font-size: 18px;">
+    إذا كان لدى المريض رؤية ازدواجية عليه الذهاب الى الطوارئ فوراً، من أجل تحديد السبب.
+
+    <br><br>
+
+    إن كان بسبب الحول اللامعاوض سيكون هناك وقت كافي لإجراء فحص كامل لكن من الضروري استبعاد أي سبب عصبي آخر، مما يستدعي
+    الأسراع بأجراء مجموعة من الفحوصات أو ريما الأبقاء على المريض في المستشفى لتحديد سبب الرؤية الازدواجية. لذلك ننصح
+    دائما في حالة إصابة المريض بالرؤية الازدواجية الحادة الذهاب في الحال إلى الطوارئ
+    <br>
+    يكون التدخل الجراحي ضروري في حالة أزدواجية الرؤية عندما لا تنفع العلاجات بواسطة العدسات الموشورية.
+    <br>
+    <b>العدسات الموشورية</b>
+    هي عدسات توضع في النظارات لتساعد في نقل الصورة الناتجة عن ازدواجية الرؤية.
+    <br>
+    <b>عندما لا يكون هذا العلاج نافعاً </b>
+    ً عندما يكون الأنحراف البصري عالي جداً أو عند عدم تكيف المريض مع العدسات الموشورية قد
+    يكون بسبب درجة الانحراف أو لأسباب جمالية، يمكن في هذه الحالة اختيار العلاج بحقن مادة توكسين البوتولينيوم أو أجراء
+    جراحة بحسب تقييم حالة كل المريض.
+</p>
+<hr size="2" width="100%" align=center>
+<h1 style="font-size: 20px;">
+    على ما يتضمن التدخل الجراحي، إذا كان العلاج جراحياً؟
+</h1>
+<p style="font-size: 18px;">
+    يكون الاختيار جراحياً عند وجود عدم توازي العينين وهي <b>الجراحة التي تعالج حالة الحول</b>
+    أي بالتداخل في حركة العضلات لإعادة التوازي البصري
+
+    <br>الجراحة لا تستدعي بقاء المريض في المستشفى حيث في أغلب الحالات يستطيع المريض العودة الى بيته في نفس يوم العملية.
+    يكون الأجراء الجراحي تحت تأثير المخدر الموضعي في منطقة العين مع بعض المهدئات. في حالات قليلة و محددة قد يكون التداخل
+    الجراحي تحت تأثير التخدير العام.
+</p>
+<hr size="2" width="100%" align=center>
+<p style="font-size: 18px;">
+    بعد إجراء هذا النوع من العمليات تكون مدة التعافي سريعة نسبياً غالباً ما يباشر المرضى حياتهم الطبيعية (سواء كان عمل
+    أو دراسة) بعد <b>أسبوع من أجراء العملية</b>.
+    <br><br>
+
+    قد يشعر المريض ببعض التحسسات كالشعور بوجود جسم غريب في العين أو احتكاك في العين لكن سرعان ما تتحسن الحالة و <b>
+    بغضون أسابيع تختفي هذه الأعراض بشكل كامل</b>
+    .
+    <br><br>
+    ينصح المرضى بعدم الذهاب الى المسابح أو السباحة في البحر و تجنب الرياضة العنيفة لمدة 10 الى 20 يوم تقريباً.
+
+    <br><br>
+    يجب على المريض أتباع الإرشادات الخاصة بالعلاج  <b> بغضون أسابيع تختفي هذه الأعراض بشكل كامل</b>
+    وكذلك إجراء الفحوصات الدورية.
+
+    <br><br>
+    بشكل عام يكون أول فحص بعد مرور اربعٍ وعشرين ساعة من العملية بعد ذلك بحسب تحسن الحالة يجرى الفحص الثاني بعد مرور
+    أسبوع و بالنهاية بعد مرور شهر حيث تكون نتائج العملية واضحة تقريباً من خلال تقليل أعراض إزدواجية الرؤية.
+</p>
+
+
+</body>
 </html>

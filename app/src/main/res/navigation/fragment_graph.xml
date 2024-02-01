@@ -20,7 +20,14 @@
         android:id="@+id/exerciseFragment"
         android:name="com.example.lazyeye.exercies.Exercises"
         android:label="fragment_exercise"
-        tools:layout="@layout/fragment_exercies" />
+        tools:layout="@layout/fragment_exercies" >
+        <action
+            android:id="@+id/action_exerciseFragment_to_articleContent"
+            app:destination="@id/articleContent" />
+        <action
+            android:id="@+id/action_exerciseFragment_to_exerciseContent"
+            app:destination="@id/exerciseContent" />
+    </fragment>
     <fragment
         android:id="@+id/articlesFragment"
         android:name="com.example.lazyeye.articles.Articles"
@@ -41,5 +48,14 @@
         <action
             android:id="@+id/action_articleContent_to_articlesFragment"
             app:destination="@id/articlesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseContent"
+        android:name="com.example.lazyeye.exercies.ExerciseContent"
+        android:label="fragment_exercise_content"
+        tools:layout="@layout/fragment_exercise_content" >
+        <action
+            android:id="@+id/action_exerciseContent_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
     </fragment>
 </navigation>

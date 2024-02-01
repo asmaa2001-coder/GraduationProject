@@ -21,4 +21,15 @@
     <string name="card5">ازدواجية الرؤية</string>
     <string name="card6">الرضع والأطفال والمراهقين</string>
     <string name="button_back">العودة</string>
+    //////////////////
+    <string name="text_headline_exersice">التمارين</string>
+    <string name="text_secheadline_exercise">يجب تحديد إحدى أنواع التمرينات المدرجة ليتم التوجيه إلى صفحة التمرين ومتابعة الإرشادات الخاصة به.</string>
+    <string name="button_next">التالي</string>
+    <string name="exe1">تمارين لتقليل إجهاد العين</string>
+    <string name="exe2">علاج الحول بدون جراحة</string>
+    <string name="exe3">تمرين تغيير التركيز</string>
+    <string name="exe4">تدليك العين</string>
+    <string name="exe5">تمارين لحول العين، والعين الكسولة.</string>
+    <string name="exe6">تمارين إضافية</string>
+
 </resources>

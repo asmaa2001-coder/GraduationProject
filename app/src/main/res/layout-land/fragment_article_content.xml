@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".articles.ArticleContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/back_button"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_background"
+                android:backgroundTint="@color/back_ground_cards"
+                android:drawableEnd="@drawable/baseline_arrow_forward_24_b"
+                android:paddingEnd="4dp"
+                android:text="@string/button_back"
+                android:textColor="@color/text_color"
+                android:textSize="20dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_of_article"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/adult_image" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/go_to_ex"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
+                android:backgroundTint="@color/button_color"
+                android:fontFamily="@font/amiri"
+                android:textStyle="bold"
+                android:text="@string/start_ex"
+                android:textColor="@color/text_color" />
+
+            <WebView
+                android:id="@+id/article_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

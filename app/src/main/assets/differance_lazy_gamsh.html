@@ -1,647 +1,147 @@
-<html xmlns:o="http://www.w3.org/1999/xhtml">
+<html>
+<html lang="ar" dir="rtl">
 <head>
-    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8' >
-
-    <style>
-@font-face{
-font-family:"Times New Roman";
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0,text/html,charset=utf-8'>
+    <Style>
+        .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@font-face{
-font-family:"宋体";
-}
-
-@font-face{
-font-family:"Arial";
-}
-
-@font-face{
-font-family:"Wingdings";
-}
-
-@list l0:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l0:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level1{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:36.0000pt;text-indent:-18.0000pt;font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;}
-
-@list l1:level2{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:72.0000pt;text-indent:-18.0000pt;font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;}
-
-@list l1:level3{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:108.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level4{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:144.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level5{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:180.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level6{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:216.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level7{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"●";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:252.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level8{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"○";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:288.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-@list l1:level9{
-mso-level-number-format:bullet;
-mso-level-suffix:tab;
-mso-level-text:"■";
-mso-level-tab-stop:none;
-mso-level-number-position:left;
-margin-left:324.0000pt;text-indent:-18.0000pt;font-family:'Times New Roman';}
-
-p.MsoNormal{
-mso-style-name:Normal;
-mso-style-parent:"";
-margin:0pt;
-margin-bottom:.0001pt;
-line-height:114%;
-font-family:Arial;
-font-size:11.0000pt;
-}
-
-h1{
-mso-style-name:"Heading 1";
-mso-style-next:Normal;
-margin-top:20.0000pt;
-margin-bottom:6.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-font-size:20.0000pt;
-}
-
-h2{
-mso-style-name:"Heading 2";
-mso-style-next:Normal;
-margin-top:18.0000pt;
-margin-bottom:6.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-mso-ansi-font-weight:normal;
-font-size:16.0000pt;
-}
-
-h3{
-mso-style-name:"Heading 3";
-mso-style-next:Normal;
-margin-top:16.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(67,67,67);
-mso-ansi-font-weight:normal;
-font-size:14.0000pt;
-}
-
-h4{
-mso-style-name:"Heading 4";
-mso-style-next:Normal;
-margin-top:14.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-font-size:12.0000pt;
-}
-
-h5{
-mso-style-name:"Heading 5";
-mso-style-next:Normal;
-margin-top:12.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-font-size:11.0000pt;
-}
-
-h6{
-mso-style-name:"Heading 6";
-mso-style-next:Normal;
-margin-top:12.0000pt;
-margin-bottom:4.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-mso-ansi-font-style:italic;
-font-size:11.0000pt;
-}
-
-span.10{
-font-family:Arial;
-}
-
-p.MsoSubtitle{
-mso-style-name:Subtitle;
-mso-style-next:Normal;
-margin-top:0.0000pt;
-margin-bottom:16.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-color:rgb(102,102,102);
-mso-ansi-font-style:normal;
-font-size:15.0000pt;
-}
-
-p.MsoTitle{
-mso-style-name:Title;
-mso-style-next:Normal;
-margin-top:0.0000pt;
-margin-bottom:3.0000pt;
-page-break-after:avoid;
-mso-pagination:lines-together;
-line-height:114%;
-font-family:Arial;
-font-size:26.0000pt;
-}
-
-span.msoIns{
-mso-style-type:export-only;
-mso-style-name:"";
-text-decoration:underline;
-text-underline:single;
-color:blue;
-}
-
-span.msoDel{
-mso-style-type:export-only;
-mso-style-name:"";
-text-decoration:line-through;
-color:red;
-}
-
-table.MsoNormalTable{
-mso-style-name:"Table Normal";
-mso-style-parent:"";
-mso-style-noshow:yes;
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-
-table.17{
-mso-style-name:"Table Normal1";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
-mso-para-margin:0pt;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-family:'Times New Roman';
-font-size:10.0000pt;
-mso-ansi-language:#0400;
-mso-fareast-language:#0400;
-mso-bidi-language:#0400;
-}
-@page{mso-page-border-surround-header:no;
-	mso-page-border-surround-footer:no;}@page Section0{
-margin-top:72.0000pt;
-margin-bottom:72.0000pt;
-margin-left:72.0000pt;
-margin-right:72.0000pt;
-size:595.4500pt 841.7000pt;
-mso-header-margin:36.0000pt;
-mso-footer-margin:36.0000pt;
-}
-div.Section0{page:Section0;}
-    </style>
+    </Style>
 </head>
-<body style="tab-interval:36pt;"><!--StartFragment-->
-<div class="Section0">
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">قد تختلط علينا بعض المفاهيم عند الأشارة الى العين الكسول و الحول أو للإجابة على السؤال التالي : ماذا لديه ولدكم/أبنتكم العين الكسول أو الحول؟</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">الغمش</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">أو</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">العين</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;</span></b></a></span><span><a
-            href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">الكسول</span></b></a></span><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;هو انخفاض في درجة الرؤية بإحدى العينين بسبب خطأ في تنسيق إيعازات الدماغ يمكن أن يحصل في عين واحدة أو في كلتاهما لكن على الأغلب يكون في عين واحدة فقط ولأن إيعازات الدماغ تعطي أفضلية الى العين السليمة لذلك فإن العين الأخرى لا تتحفز و لا تؤدي وظيفتها بشكل كافي.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;أنحراف العين يسبب ما نعرفه بأسم </span><span><a
-            href="https://icrcat.com/enfermedades-oculares/estrabismo/"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(0,106,160);mso-ansi-font-weight:bold;font-size:12.0000pt;">الحول</span></b></a></span><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;و يمكن أن يكون الحول باتجاه الخارج أو بأتجاه الداخل او الى فوق أو تحت.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يحدث الغمش في سن مبكرة جداً و هو </span><u><span dir="RTL"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);text-decoration:underline;text-underline:single;
-font-size:12.0000pt;">السبب الأول لفقدان البصر عند الأطفال.</span></u><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;لذلك يصبح لزاماً أخذ الطفل الى طبيب العيون لإجراء الفحص الطبي اللازم بشكل مبكر لمعرفة اسباب الغمش بأسرع وقت ممكن.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">مخاطر الأصابة بالغمش أو العين الكسول:</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هناك عدة أمراض بصرية قد تقود إلى الإصابة بالغمش و لذا يجب التسريع بعلاجه لأسباب عدة منها:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">مع مرور الوقت فإن العين المصابة بالغمش يمكن أن يصاب </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">بالعمى </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">بشكل دائمي.</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يمكن فقدان القدرة على أدراك العمق أو (الرؤية </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">ثلاثية الأبعاد</span></b><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">)</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l0 level1 lfo1;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">إذا تعرضت العين السليمة لمرض أو ضرر لا يمكن الإستعانة بالعين المصابة بالغمش لتعويض فقدان الرؤية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">التمييز بين العين الكسول و الحول</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هناك خلط كبير بين مفهومي العين الكسول و الحول غالبية الأشخاص عندما يشيرون إلى العين الكسول فإنهم يصفونه بأنحراف أو تشوه الرؤية أي الحول. &nbsp;بينما العين الكسول هو جزء من مرض الغمش و يسبب انخفاض الرؤية في أحدى العينين. لفهم الفروقات بين الحول و العين الكسول أي الغمش، &nbsp;فإن عدم توازي العينين (الحول) قد يوؤدي الى الأصابة بالغمش (العين الكسول).</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ويؤكد الأشخاص المصابين بالحول إلى الأعراض نفسها أي انحراف العينين أو تقاطعهما أو تداخلها.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;عند تفاوت أتجاه الرؤية بين عين و اخرى هذا يعني بأنها حالة حول، و لسبب ما، يكون الحول، تفقد أحدى العينين القدرة على الرؤية بشكل جيد فأن الدماغ لا يرسل ايعازاته فيصبح عين كسول لعدم أدائها لوظيفته (المصابة بالغمش</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">).</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">علاج العين الكسول</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">ليس هناك أجراء جراحي لعلاج الغمش أو العين الكسول. يكون ذلك ممكناً إذا تمت معالجته في مرحلة الطفولة. و كلما تم تشخيصه و معالجته بشكل مبكر كان أفضل. و في واقع الأمر فأن نسبة نجاح العلاج تتضاءل بالنسبة للأطفال في عمر 7 سنوات مع وجود حالات استثنائية تسمح بعلاج الحالة حتى عمر 15 سنة. يمكن علاج الغمش عادةً عن طريق النظارات الطبية و تغطية العين أو الأدوية، أستعمال لصقات العين يضطر الطفل فيها لاستخدام العين الأكثر ضعفاً من أجل تصحيح نظره، أيضاً يمكن استخدام نظارات لتغطية العين السليمة و لكي تؤدي العين الضعيفة وظيفتها بشكل صحيح. يمكن لهذا التمرين أن يستمر لأسابيع أو لأشهر. عندما تبدأ العين الكسول بأداء وظيفتها بالرؤية يمكن للطفل حينها أن يضع لصقات العين بشكل أقل أي بفترات متقطعة لبعض السنوات من أجل الحفاظ على درجة الرؤية التي كسبتها العين الضعيفة.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">علاج الحول</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;"><o:p></o:p></span></b></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">في حقيقة الأمر لا توجد</span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;عملية جراحية للعين الكسول</span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;لكن عُرف هذا المفهوم بسبب الخلط بين حالة الحول (انحراف العين) و بين حالة العين الكسول أو الغمش ،لذلك ما يراد الإشارة اليه هنا هو في الحقيقة &nbsp;</span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">العملية الجراحية للحول</span></b><b
-            style="mso-bidi-font-weight:normal"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;</span></b><span dir="RTL"
-                                                                                           style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">وهو تداخل جراحي على مستوى عضلات العين من</span><u><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);text-decoration:underline;text-underline:single;
-font-size:12.0000pt;">&nbsp;أجل تصحيح الانحراف.</span></u><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;يمكن للصغار و الكبار الخضوع لهذه العملية و لنتائجها دور في تحسين الأداء الوظيفي البصري للعين فضلاً عن تحسين شكلها الخارجي أو الجمالي.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عند وجود حالة الحول من المهم الاطلاع على المعلومات التالية:</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:3.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">يمكن معالجة الحول في بعض الحالات عن طريق النظارات و ممكن أن ترافقها تغطية عين واحدة.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أما أذا لم يكن الحل الأول كافياً أي النظارات، يمكن معالجته دوائياً من غير الحاجة للعملية الجراحية و تعمل الأدوية على استرخاء العضلات.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و في الحالات التي تعجز فيها هذه الحلول أي النظارات و تغطية عين واحدة و الأدوية على تصحيح الحول يكون ضرورياً اللجوء الى الإجراء الجراحي.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">تتضمن العملية الجراحية </span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">في شد وارخاء عضلات العين </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">من أجل تعديلها و جعلها متوازية.</span><span dir="LTR"
-                                                                                      style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هناك </span><u><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);text-decoration:underline;text-underline:single;
-font-size:12.0000pt;">نوعان</span></u><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">&nbsp;رئيسيان لجراحة الحول:</span><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:72.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level2 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أولاً </span><b style="mso-bidi-font-weight:normal"><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">حسر عضلات العين </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">(أضعافها) و تعني فصل العضلة و اعادة جمعها في طرف آخر بعيد عن الجزء الأمامي للعين.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:72.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level2 lfo2;"><![if !supportLists]><span style="font-family:Arial;color:rgb(37,37,37);mso-ansi-font-weight:bold;
-font-size:12.0000pt;"><span style='mso-list:Ignore;'>&#9675;<span>&nbsp;</span></span></span><![endif]><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">قطع العضلة </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">(وتقويتها) أي إزالة جزء من العضلة لشدّها اكثر.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">عملية تعديل عضلات العين لها</span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;مؤشرات نجاح كبيرة </span></b><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">و المضاعفات الخطيرة تكون نادرة.</span><span dir="LTR"
-                                                                                      style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">هو نوع من العمليات العيادية أي لا تستدعي</span><b
-            style="mso-bidi-font-weight:normal"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);mso-ansi-font-weight:bold;font-size:12.0000pt;">&nbsp;بقاء المريض في المشفى.</span></b><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:0.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">الأطفال يمكنهم العودة الى مقاعد الدراسة بعد أيام من الراحة، أما في حالة البالغين فيمكنهم العودة إلى أعمالهم بعد مرور أسابيع على العملية.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-top:0.0000pt;margin-bottom:27.0000pt;margin-left:36.0000pt;
-text-indent:-18.0000pt;border-right:none;mso-border-right-alt:none;
-padding:0pt 12pt 0pt 0pt ;line-height:150%;background:rgb(255,255,255);
-mso-list:l1 level1 lfo2;"><![if !supportLists]><span
-            style="font-family:Arial;color:rgb(37,37,37);font-size:12.0000pt;"><span
-            style='mso-list:Ignore;'>&#9679;<span>&nbsp;</span></span></span><![endif]><span
-            dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">الأعراض الجانبية الاعتيادية التي تسببها عملية الحول هي الاحمرار و الانزعاج و الألم لكنها و بشكل عام مؤقتة.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal align=justify dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;text-align:justify;
-text-justify:inter-ideograph;line-height:150%;background:rgb(255,255,255);"><span dir="RTL" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;">أذا ما فكرت بإجراء عملية الحول سواء لطفلك أو طفلتك او لنفسك حتى فأن من المهم في بادئ الأمر أجراء فحص عند طبيب العيون المختص بالحول لمناقشة التوقعات والاحتمالات مسبقاً.</span><span
-            dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p></o:p></span></p>
-    <p class=MsoNormal dir="RTL" style="margin-bottom:24.0000pt;padding:0pt 0pt 0pt 0pt ;line-height:150%;
-background:rgb(255,255,255);"><span dir="LTR" style="mso-spacerun:'yes';font-family:Arial;line-height:150%;
-color:rgb(37,37,37);font-size:12.0000pt;"><o:p>&nbsp;</o:p></span></p>
-    <p class=MsoNormal dir="RTL"><span dir="LTR"
-                                       style="mso-spacerun:'yes';font-family:Arial;font-size:11.0000pt;"><o:p>&nbsp;</o:p></span>
-    </p>
-</div><!--EndFragment--></body>
+
+<body>
+<p style="font-size: 18px;">
+    قد تختلط علينا بعض المفاهيم عند الأشارة الى العين الكسول و الحول أو للإجابة على السؤال التالي :<br> ماذا لديه
+    ولدكم/أبنتكم العين الكسول أو الحول؟
+    </a>
+</p>
+
+<p style="font-size: 18px;">
+    <a href="https://icrcat.com/enfermedades-oculares/ambliopia-u-ojo-vago/">الغمش أو العين الكسول </a>
+    هو انخفاض في درجة الرؤية بإحدى العينين بسبب خطأ في تنسيق إيعازات الدماغ يمكن أن يحصل في عين
+    واحدة أو في كلتاهما لكن على الأغلب يكون في عين واحدة فقط ولأن إيعازات الدماغ تعطي أفضلية الى العين السليمة لذلك فإن
+    العين الأخرى لا تتحفز و لا تؤدي وظيفتها بشكل كافي.    </a>
+</p>
+<br>
+<p style="font-size: 18px;">
+    أنحراف العين يسبب ما نعرفه بأسم <a href="https://icrcat.com/enfermedades-oculares/estrabismo/">الحول</a>
+    و يمكن أن يكون الحول باتجاه الخارج أو بأتجاه الداخل او الى فوق أو تحت.
+</p>
+<p style="font-size: 18px;">
+    يحدث الغمش في سن مبكرة جداً و هو <u>السبب الأول لفقدان البصر عند الأطفال</u>
+    لذلك يصبح لزاماً أخذ الطفل الى طبيب العيون لإجراء الفحص الطبي اللازم بشكل مبكر لمعرفة اسباب الغمش بأسرع وقت ممكن
+</p>
+<h4 style="font-size: 20px;">مخاطر الأصابة بالغمش أو العين الكسول:</h4>
+<p style="font-size: 18px;">
+    هناك عدة أمراض بصرية قد تقود إلى الإصابة بالغمش و لذا يجب التسريع بعلاجه لأسباب عدة منها:
+</p>
+<ol>
+    <li>
+        مع مرور الوقت فإن العين المصابة بالغمش يمكن أن يصاب بالعمى بشكل دائمي.
+    </li>
+    <li>
+        يمكن فقدان القدرة على أدراك العمق أو (<b>الرؤية ثلاثية الأبعاد</b>)
+
+    </li>
+    <li>
+        إذا تعرضت العين السليمة لمرض أو ضرر لا يمكن الإستعانة بالعين المصابة بالغمش لتعويض فقدان الرؤية.
+    </li>
+</ol>
+<h4 style="font-size: 20px;">التمييز بين العين الكسول و الحول</h4>
+
+<p style="font-size: 18px;">
+    هناك خلط كبير بين مفهومي العين الكسول و الحول غالبية الأشخاص عندما يشيرون إلى العين الكسول فإنهم يصفونه بأنحراف أو
+    تشوه الرؤية أي الحول. بينما العين الكسول هو جزء من مرض الغمش و يسبب انخفاض الرؤية في أحدى العينين. لفهم الفروقات بين
+    الحول و العين الكسول أي الغمش، فإن عدم توازي العينين (الحول) قد يوؤدي الى الأصابة بالغمش (العين الكسول).</p>
+<p style="font-size: 18px;">
+    ويؤكد الأشخاص المصابين بالحول إلى الأعراض نفسها أي انحراف العينين أو تقاطعهما أو تداخلها.
+
+</p>
+<p style="font-size: 18px;">
+    عند تفاوت أتجاه الرؤية بين عين و اخرى هذا يعني بأنها حالة حول، و لسبب ما، يكون الحول، تفقد أحدى العينين القدرة على
+    الرؤية بشكل جيد فأن الدماغ لا يرسل ايعازاته فيصبح عين كسول لعدم أدائها لوظيفته (المصابة بالغمش)
+</p>
+<h4 style="font-size: 20px;">علاج العين الكسول</h4>
+<p style="font-size: 18px;">
+    ليس هناك أجراء جراحي لعلاج الغمش أو العين الكسول. يكون ذلك ممكناً إذا تمت معالجته في مرحلة الطفولة. و كلما تم تشخيصه
+    و معالجته بشكل مبكر كان أفضل. و في واقع الأمر فأن نسبة نجاح العلاج تتضاءل بالنسبة للأطفال في عمر 7 سنوات مع وجود
+    حالات استثنائية تسمح بعلاج الحالة حتى عمر 15 سنة. يمكن علاج الغمش عادةً عن طريق النظارات الطبية و تغطية العين أو
+    الأدوية، أستعمال لصقات العين يضطر الطفل فيها لاستخدام العين الأكثر ضعفاً من أجل تصحيح نظره، أيضاً يمكن استخدام
+    نظارات لتغطية العين السليمة و لكي تؤدي العين الضعيفة وظيفتها بشكل صحيح. يمكن لهذا التمرين أن يستمر لأسابيع أو لأشهر.
+    عندما تبدأ العين الكسول بأداء وظيفتها بالرؤية يمكن للطفل حينها أن يضع لصقات العين بشكل أقل أي بفترات متقطعة لبعض
+    السنوات من أجل الحفاظ على درجة الرؤية التي كسبتها العين الضعيفة.
+</p>
+
+<h4 style="font-size: 20px;">علاج الحول</h4>
+<p style="font-size: 18px;">
+    في حقيقة الأمر لا توجد <b>عملية جراحية للعين الكسول</b>
+    لكن عُرف هذا المفهوم بسبب الخلط بين حالة الحول (انحراف العين) و بين
+    حالة العين الكسول أو الغمش ،لذلك ما يراد الإشارة اليه هنا هو في الحقيقة <b>العملية الجراحية للحول </b>وهو تداخل
+    جراحي على
+    مستوى عضلات العين من <u>أجل تصحيح الانحراف</u>
+    يمكن للصغار و الكبار الخضوع لهذه العملية و لنتائجها دور في تحسين الأداء
+    الوظيفي البصري للعين فضلاً عن تحسين شكلها الخارجي أو الجمالي.</p>
+<h6 style="font-size: 20px;">عند وجود حالة الحول من المهم الاطلاع على المعلومات التالية:</h6>
+<ol>
+    <li>
+        يمكن معالجة الحول في بعض الحالات عن طريق النظارات و ممكن أن ترافقها تغطية عين واحدة.
+    </li>
+    <li>
+        أما أذا لم يكن الحل الأول كافياً أي النظارات، يمكن معالجته دوائياً من غير الحاجة للعملية الجراحية و تعمل الأدوية
+        على استرخاء العضلات
+    </li>
+    <li>
+        في الحالات التي تعجز فيها هذه الحلول أي النظارات و تغطية عين واحدة و الأدوية على تصحيح الحول يكون ضرورياً اللجوء
+        الى الإجراء الجراحي.
+    </li>
+    <li>
+        تتضمن العملية الجراحية <b>في شد وارخاء عضلات العين</b>
+        من أجل تعديلها و جعلها متوازية.
+    </li>
+    </b>
+    <li>
+        <b> هناك <U>نوعان </U> رئيسيان لجراحة الحول:
+        </b>
+        <br> <br>
+        <ul>
+            <li>
+                ولاً <b> حسر عضلات العين</b>
+                (أضعافها) و تعني فصل العضلة و اعادة جمعها في طرف آخر بعيد عن الجزء الأمامي
+                للعين.
+            </li>
+
+            <li>
+                <b> قطع العضلة</b>
+                (وتقويتها) أي إزالة جزء من العضلة لشدّها اكثر.
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        عملية تعديل عضلات العين لها مؤشرات نجاح كبيرة و المضاعفات الخطيرة تكون نادرة.
+                    </li>
+                    <br>
+                    <li>
+                        <b> قطع العضلة</b>
+                        هو نوع من العمليات العيادية أي لا تستدعي بقاء المريض في المشفى.
+                    </li>
+                    <br>
+                    <li>
+                        الأطفال يمكنهم العودة الى مقاعد الدراسة بعد أيام من الراحة، أما في حالة البالغين فيمكنهم العودة إلى أعمالهم بعد مرور أسابيع على العملية.
+                    </li>
+                    <br>
+                    <li>
+                        الأعراض الجانبية الاعتيادية التي تسببها عملية الحول هي الاحمرار و الانزعاج و الألم لكنها و بشكل عام مؤقتة
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+<p style="font-size: 18px;">
+    أذا ما فكرت بإجراء عملية الحول سواء لطفلك أو طفلتك او لنفسك حتى فأن من المهم في بادئ الأمر أجراء فحص عند طبيب العيون المختص بالحول لمناقشة التوقعات والاحتمالات مسبقاً.
+</p>
+</body>
 </html>

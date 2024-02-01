@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_nav">@color/white</color>
-    <color name="item_non_activate">@color/black</color>
-    <color name="item_activate">#001B79</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="item_non_activate">#BBBFC9</color>
+    <color name="item_activate">#0477B3</color>
+    <color name="background_nav">#E0E0E0</color>
+    <color name="background_color">#212121</color>
+    <color name="back_ground_cards">#505050</color>
+    <color name="button_color">#3B42AB</color>
+    <color name="nav_color">#3A3A3A</color>
+    <color name="border_camera_color">#3A3A3A</color>
+    <color name="text_color">#E0E0E0</color>
+
 </resources>

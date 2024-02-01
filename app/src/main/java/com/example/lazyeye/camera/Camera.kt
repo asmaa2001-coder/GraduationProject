@@ -1,10 +1,13 @@
 package com.example.lazyeye.camera
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.MediaStore
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import com.example.lazyeye.R
 
 
@@ -23,4 +26,14 @@ class Camera : Fragment() {
         return inflater.inflate(R.layout.fragment_camera, container, false)
     }
 
+    override fun onViewCreated(view: View , savedInstanceState: Bundle?) {
+        super.onViewCreated(view , savedInstanceState)
+        val bt : Button =view.findViewById(R.id.take_photo)
+        bt.setOnClickListener {
+            val intent: Intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+            startActivityForResult(intent,0)
+
+            // val nav :NavigationView =view.findViewById(R.id.my_bottom_navigation)
+        }
+    }
 }
