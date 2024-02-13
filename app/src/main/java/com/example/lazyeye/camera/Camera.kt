@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.example.lazyeye.R
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class Camera : Fragment() {
@@ -28,12 +29,14 @@ class Camera : Fragment() {
 
     override fun onViewCreated(view: View , savedInstanceState: Bundle?) {
         super.onViewCreated(view , savedInstanceState)
+        val nav :BottomNavigationView =requireActivity().findViewById(R.id.my_bottom_navigation)
+        nav.visibility=View.VISIBLE
         val bt : Button =view.findViewById(R.id.take_photo)
         bt.setOnClickListener {
             val intent: Intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             startActivityForResult(intent,0)
 
-            // val nav :NavigationView =view.findViewById(R.id.my_bottom_navigation)
+
         }
     }
 }

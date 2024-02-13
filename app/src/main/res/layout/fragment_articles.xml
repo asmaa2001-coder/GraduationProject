@@ -107,8 +107,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card1_image" />
@@ -149,8 +149,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card4_image" />
@@ -227,8 +227,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card6_image" />
@@ -261,8 +261,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card5_image" />

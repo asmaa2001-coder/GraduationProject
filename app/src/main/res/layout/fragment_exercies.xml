@@ -49,8 +49,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
             android:orientation="horizontal">
@@ -85,9 +85,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textColor="@color/text_color"
                         android:text="@string/exe1"
-                        android:textAlignment="center" />
+                        android:textAlignment="center"
+                        android:textColor="@color/text_color" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -110,9 +110,9 @@
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="100dp"
                         android:layout_height="50dp"
-                        android:scaleType="centerCrop"
                         android:layout_gravity="center"
                         android:layout_weight="1"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/exe2" />
 
                     <TextView
@@ -120,10 +120,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:textColor="@color/text_color"
-
                         android:text="@string/exe2"
-                        android:textAlignment="center" />
+
+                        android:textAlignment="center"
+                        android:textColor="@color/text_color" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -131,7 +131,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
             android:orientation="horizontal">
@@ -211,7 +211,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="25dp"
             android:orientation="horizontal">

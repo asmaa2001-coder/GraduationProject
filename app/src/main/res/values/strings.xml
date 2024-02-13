@@ -31,5 +31,7 @@
     <string name="exe4">تدليك العين</string>
     <string name="exe5">تمارين لحول العين، والعين الكسولة.</string>
     <string name="exe6">تمارين إضافية</string>
-
+    <string name="skip">SKIP</string>
+    <string name="Next">NEXT</string>
+    <string name="getStarted">Get Started</string>
 </resources>

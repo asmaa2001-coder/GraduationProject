@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".OnBoardScreen">
+
+    <androidx.viewpager2.widget.ViewPager2
+
+        android:id="@+id/viewpager3"
+        android:layout_width="411dp"
+        android:layout_height="408dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:padding="10dp">
+
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/dot_ind"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        app:dotsColor="@color/item_activate"
+        app:progressMode="true"
+        app:selectedDotColor="@color/item_activate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/skip_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center|start"
+            android:text="@string/skip"
+            android:textColor="@color/item_activate"
+            android:textSize="20dp"
+            app:layout_constraintVertical_bias="0.614" />
+
+        <Button
+            android:id="@+id/getStart_btn"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/getStarted"
+            android:textColor="@color/back_ground_cards"
+            android:textSize="20dp"
+            app:layout_constraintVertical_bias="0.614" />
+
+        <Button
+            android:id="@+id/next_btn_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center|end"
+            android:padding="5dp"
+            android:text="@string/Next"
+            android:textColor="@color/item_activate"
+            android:textSize="20dp"
+            app:layout_constraintVertical_bias="0.614" />
+    </LinearLayout>
+
+
+</LinearLayout>
