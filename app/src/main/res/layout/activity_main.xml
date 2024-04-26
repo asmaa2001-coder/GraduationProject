@@ -23,7 +23,8 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/background_color"
             app:defaultNavHost="true"
-            app:navGraph="@navigation/fragment_graph" />
+            app:navGraph="@navigation/fragment_graph"
+            />
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

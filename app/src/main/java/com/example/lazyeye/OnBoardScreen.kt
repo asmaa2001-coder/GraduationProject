@@ -77,9 +77,10 @@ class OnBoardScreen : Fragment() {
                     start.visibility = View.VISIBLE
 
                     start.setOnClickListener {
-                            editor?.putBoolean("check" , true)
-                            editor?.apply()
-                            Navigation.findNavController(view).navigate(R.id.action_onBoardScreen_to_cameraFragment)
+                        editor?.putBoolean("check" , true)
+                        editor?.apply()
+                        Navigation.findNavController(view)
+                                .navigate(R.id.action_onBoardScreen_to_cameraFragment)
 
                     }
                 } else {
@@ -89,18 +90,18 @@ class OnBoardScreen : Fragment() {
                 }
             }
         })
-bnv.visibility=View.INVISIBLE
+        bnv.visibility = View.INVISIBLE
         next.setOnClickListener {
             pager2.currentItem = pager2.currentItem + 1
         }
         skip.setOnClickListener()
         {
-                editor?.putBoolean("check" , true)
-                editor?.apply()
-                Navigation.findNavController(view).navigate(R.id.action_onBoardScreen_to_cameraFragment)
+            editor?.putBoolean("check" , true)
+            editor?.apply()
+            Navigation.findNavController(view).navigate(R.id.action_onBoardScreen_to_cameraFragment)
 
-            }
         }
+    }
 
 
     fun callViews() {

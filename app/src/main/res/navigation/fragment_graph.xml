@@ -15,6 +15,12 @@
         <action
             android:id="@+id/action_camareFragment_to_exerciseFragment"
             app:destination="@id/exerciseFragment" />
+        <action
+            android:id="@+id/action_cameraFragment_to_cameraFragment2"
+            app:destination="@id/cameraFragment2" />
+        <action
+            android:id="@+id/action_cameraFragment_to_classification"
+            app:destination="@id/classification" />
     </fragment>
     <fragment
         android:id="@+id/exerciseFragment"
@@ -67,4 +73,14 @@
             android:id="@+id/action_onBoardScreen_to_cameraFragment"
             app:destination="@id/cameraFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/cameraFragment2"
+        android:name="com.example.lazyeye.camera.CameraFragment"
+        android:label="fragment_camera2"
+        tools:layout="@layout/fragment_camera2" />
+    <fragment
+        android:id="@+id/classification"
+        android:name="com.example.lazyeye.camera.Classification"
+        android:label="fragment_classification"
+        tools:layout="@layout/fragment_classification" />
 </navigation>
