@@ -5,7 +5,7 @@
     <color name="item_non_activate">#BBBFC9</color>
     <color name="item_activate">#0477B3</color>
     <color name="background_nav">@color/black</color>
-    <color name="background_color">#FFFFFF</color>
+    <color name="background_color">#FDFDFD</color>
     <color name="back_ground_cards">#D3F3F4F6</color>
     <color name="text_color">#121212</color>
     <color name="button_color">#0284C7</color>
