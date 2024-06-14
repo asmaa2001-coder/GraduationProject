@@ -35,7 +35,7 @@ class Camera : Fragment() {
         nav.visibility=View.VISIBLE
         val bt : Button =view.findViewById(R.id.take_photo)
         bt.setOnClickListener {
-Navigation.findNavController(view).navigate(R.id.action_cameraFragment_to_cameraFragment2)
+Navigation.findNavController(view).navigate(R.id.action_cameraFragment_to_classification)
             nav.visibility = View.INVISIBLE
 
 
