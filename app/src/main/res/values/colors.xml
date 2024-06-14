@@ -10,4 +10,9 @@
     <color name="text_color">#121212</color>
     <color name="button_color">#0284C7</color>
     <color name="border_camera_color">#D3F3F4F6</color>
+    <color name="button_pressed">#3700B3</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="image_border">#DDDDDD</color>
+    <color name="button_normal">#6200EE</color>
+    <color name="result_background">#F1F1F1</color>
 </resources>

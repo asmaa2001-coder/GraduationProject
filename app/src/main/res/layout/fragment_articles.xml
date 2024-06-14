@@ -56,7 +56,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/adult_hawel"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -71,9 +71,10 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/card2_image"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
+                        android:backgroundTint="@color/back_ground_cards"
                         android:layout_weight="1"
                         android:scaleType="centerCrop"
                         android:src="@drawable/card2_image" />
@@ -94,7 +95,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/kid_hawel"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -107,7 +108,7 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
@@ -136,7 +137,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/differance_lazy_hawel"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -149,7 +150,7 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
@@ -160,6 +161,7 @@
                         android:layout_width="156dp"
                         android:layout_height="51dp"
                         android:layout_gravity="center"
+                        android:textSize="18dp"
                         android:text="@string/card4"
 
                         android:textAlignment="center"
@@ -171,7 +173,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/lazy_article"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -184,8 +186,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card3_image" />
@@ -214,7 +216,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/protectin"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -227,7 +229,7 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="wrap_content"
+                        android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
@@ -248,7 +250,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/sight_twice"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/back_ground_cards"
@@ -261,8 +263,8 @@
                     android:orientation="vertical">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:src="@drawable/card5_image" />

@@ -8,13 +8,13 @@
     <androidx.camera.view.PreviewView
         android:id="@+id/viewFinder"
         android:layout_width="match_parent"
-        android:layout_height="565dp" />
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/result"
+
+    <com.example.lazyeye.camera.OverlayViewClassification
+        android:id="@+id/overlay"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_gravity="bottom"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent"
+        />
 
 </FrameLayout>
